@@ -65,7 +65,10 @@
 
                 <nav id="navmenu" class="navmenu">
                     <ul>
-                        <li><a href="#hero" class="active">Home</a></li>
+                        <?php
+                        $url = uri_string();
+                        ?>
+                        <li><a href="<?= empty($url) ? "#hero" : base_url(); ?>">Home</a></li>
                         <li class="dropdown">
                             <a href="#about">
                                 <span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i>
@@ -488,17 +491,17 @@
     <main class="main">
         <!-- Main content slot -->
         <?= $this->renderSection('content'); ?>
+
     </main>
 
     <footer id="footer" class="footer position-relative dark-background">
-
         <div class="container footer-top">
             <div class="row gy-4">
                 <div class="col-lg-5 col-md-12 footer-about">
-                    <a href="index.html" class="logo d-flex align-items-center">
-                        <span class="sitename">Passion</span>
+                    <a href="<?= base_url(); ?>" class="logo d-flex align-items-center">
+                        <img src="https://mindtrilogy.com/assets/images/logo/logo6.png" class="" alt="">
                     </a>
-                    <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                    <p>We are committed to delivering innovative digital solutions that drive results. With expert teams and a client-first approach, we help businesses thrive in the modern tech landscape.</p>
                     <div class="social-links d-flex mt-4">
                         <a href=""><i class="bi bi-twitter-x"></i></a>
                         <a href=""><i class="bi bi-facebook"></i></a>
@@ -508,54 +511,49 @@
                 </div>
 
                 <div class="col-lg-2 col-6 footer-links">
-                    <h4>Useful Links</h4>
+                    <h4>Company</h4>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About us</a></li>
+                        <li><a href="#">About Us</a></li>
                         <li><a href="#">Services</a></li>
-                        <li><a href="#">Terms of service</a></li>
-                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Industries</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-2 col-6 footer-links">
-                    <h4>Our Services</h4>
+                    <h4>Support</h4>
                     <ul>
-                        <li><a href="#">Web Design</a></li>
-                        <li><a href="#">Web Development</a></li>
-                        <li><a href="#">Product Management</a></li>
-                        <li><a href="#">Marketing</a></li>
-                        <li><a href="#">Graphic Design</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Sitemap</a></li>
                     </ul>
                 </div>
 
-                <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+                <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start ">
                     <h4>Contact Us</h4>
                     <p>A108 Adam Street</p>
                     <p>New York, NY 535022</p>
                     <p>United States</p>
-                    <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-                    <p><strong>Email:</strong> <span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="61080f070e210419000c110d044f020e0c">[email&#160;protected]</a></span></p>
+                    <p class="mt-4"><strong>Phone:</strong> <span><a class="text-white" href="tel:+911234567890">+91 123 456 7890</a></span></p>
+                    <p><strong>Email:</strong>
+                        <span><a class="text-white" href="mailto:example@gmail.com">example@gmail.com</a></span>
+                    </p>
                 </div>
 
             </div>
         </div>
 
         <div class="container copyright text-center mt-4">
-            <p>© <span>Copyright</span> <strong class="px-1 sitename">MyWebsite</strong> <span>All Rights Reserved</span></p>
+            <p>© <span>Copyright</span> <strong class="px-1 sitename"><a class="text-white" href="<?= base_url(); ?>">MINDTRILOGY</a></strong> <span>All Rights Reserved</span></p>
             <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you've purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                Designed by <a class="text-white" href="https://wmsn.in" target="_blank">WMSN</a>
             </div>
         </div>
 
     </footer>
 
     <!-- Scroll Top -->
-    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a href="javasript:void(0)" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
     <!-- Preloader -->
     <div id="preloader">

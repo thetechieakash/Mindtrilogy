@@ -279,9 +279,9 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="services-content" data-aos-duration="900">
-                    <span class="subtitle">Scalable Solutions</span>
-                    <h2>Custom Technology Services That Drive Growth</h2>
-                    <p data-aos-duration="800">From strategy to execution, we deliver end-to-end digital solutions including software development, cloud, AI, and automation — tailored to your goals, timelines, and technologies to maximize business impact.</p>
+                    <span class="subtitle">Expert Delivery</span>
+                    <h2>Solutions Built for Performance and Scale</h2>
+                    <p data-aos-duration="800">Our featured services are tailored to solve complex business challenges through expert-driven execution in software development, cloud engineering, AI integration, and quality assurance—designed for maximum reliability and business growth.</p>
                     <div class="mt-4" data-aos-duration="1100">
                         <a href="#" class="btn-consultation"><span>Request a Consultation</span><i class="bi bi-arrow-right"></i></a>
                     </div>
@@ -330,12 +330,12 @@
                         <div class="swiper-slide">
                             <div class="service-card">
                                 <div class="icon-box">
-                                    <i class="bi bi-bar-chart-fill"></i>
+                                    <i class="bi-person-gear"></i>
                                 </div>
                                 <a href="#" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
                                 <div class="content">
-                                    <h4><a href="#">Financial Strategy Development</a></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Cras vehicula magna eget lectus varius, at finibus massa condimentum.</p>
+                                    <h4><a href="#">IT Consulting</a></h4>
+                                    <p>We align your business goals with modern technology through expert IT strategies, digital transformation guidance, and system optimization for long-term growth and agility.</p>
                                     <div class="service-number">01</div>
                                 </div>
                             </div>
@@ -344,12 +344,12 @@
                         <div class="swiper-slide">
                             <div class="service-card">
                                 <div class="icon-box">
-                                    <i class="bi bi-graph-up-arrow"></i>
+                                    <i class="bi-code-slash"></i>
                                 </div>
                                 <a href="#" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
                                 <div class="content">
-                                    <h4><a href="#">Market Expansion Advisory</a></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Cras vehicula magna eget lectus varius, at finibus massa condimentum.</p>
+                                    <h4><a href="#">Software Development</a></h4>
+                                    <p>We build secure, scalable, and user-centric web and mobile applications tailored to your business processes, branding, and growth requirements across all major platforms.</p>
                                     <div class="service-number">02</div>
                                 </div>
                             </div>
@@ -358,12 +358,12 @@
                         <div class="swiper-slide">
                             <div class="service-card">
                                 <div class="icon-box">
-                                    <i class="bi bi-shield-check"></i>
+                                    <i class="bi-cloud-arrow-up"></i>
                                 </div>
                                 <a href="#" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
                                 <div class="content">
-                                    <h4><a href="#">Risk Management Solutions</a></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Cras vehicula magna eget lectus varius, at finibus massa condimentum.</p>
+                                    <h4><a href="#">Cloud & DevOps</a></h4>
+                                    <p>We enable seamless cloud adoption, CI/CD pipelines, and infrastructure automation to reduce downtime, scale effortlessly, and accelerate delivery with improved operational efficiency.</p>
                                     <div class="service-number">03</div>
                                 </div>
                             </div>
@@ -372,12 +372,12 @@
                         <div class="swiper-slide">
                             <div class="service-card">
                                 <div class="icon-box">
-                                    <i class="bi bi-lightbulb-fill"></i>
+                                    <i class="bi-cpu"></i>
                                 </div>
                                 <a href="#" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
                                 <div class="content">
-                                    <h4><a href="#">Innovation &amp; Digital Transformation</a></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Cras vehicula magna eget lectus varius, at finibus massa condimentum.</p>
+                                    <h4><a href="#">Data &amp; AI Solutions</a></h4>
+                                    <p>Unlock business insights through data engineering, machine learning models, and AI tools that drive smart decision-making and personalized customer experiences.</p>
                                     <div class="service-number">04</div>
                                 </div>
                             </div>
@@ -386,13 +386,26 @@
                         <div class="swiper-slide">
                             <div class="service-card">
                                 <div class="icon-box">
-                                    <i class="bi bi-people-fill"></i>
+                                    <i class="bi-diagram-3"></i>
                                 </div>
                                 <a href="#" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
                                 <div class="content">
-                                    <h4><a href="#">Talent Management Strategy</a></h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Cras vehicula magna eget lectus varius, at finibus massa condimentum.</p>
+                                    <h4><a href="#">CRM / ERP Integration</a></h4>
+                                    <p>We implement and customize CRM and ERP systems like Salesforce and SAP to streamline operations, improve customer engagement, and enhance workflow automation.</p>
                                     <div class="service-number">05</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-card">
+                                <div class="icon-box">
+                                    <i class="bi-ui-checks-grid"></i>
+                                </div>
+                                <a href="#" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
+                                <div class="content">
+                                    <h4><a href="#">QA & Automation</a></h4>
+                                    <p>Ensure software quality with manual and automated testing solutions that catch bugs early, improve performance, and guarantee reliable user experiences across all devices.</p>
+                                    <div class="service-number">06</div>
                                 </div>
                             </div>
                         </div>
@@ -421,7 +434,7 @@
     <!-- Section Title -->
     <div class="container section-title">
         <h2>How We Work</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Our Proven Process to Deliver Scalable Digital Solutions</p>
     </div><!-- End Section Title -->
 
     <div class="container">
@@ -432,8 +445,8 @@
                     <i class="bi bi-search"></i>
                 </div>
                 <div class="step-number">Step 1</div>
-                <h3>Research &amp; Planning</h3>
-                <p>Nulla facilisi morbi tempus iaculis urna id. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere.</p>
+                <h3>Discover Needs</h3>
+                <p>We begin by understanding your business challenges, goals, and technical needs through collaborative discussions and in-depth requirements gathering.</p>
                 <div class="step-arrow">
                     <i class="bi bi-arrow-right"></i>
                 </div>
@@ -444,8 +457,8 @@
                     <i class="bi bi-lightbulb"></i>
                 </div>
                 <div class="step-number">Step 2</div>
-                <h3>Creative Solutions</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                <h3>Plan Strategy</h3>
+                <p>Our team creates a custom solution roadmap, timelines, and milestones tailored to your objectives, industry standards, and future scalability.</p>
                 <div class="step-arrow">
                     <i class="bi bi-arrow-right"></i>
                 </div>
@@ -456,8 +469,8 @@
                     <i class="bi bi-gear"></i>
                 </div>
                 <div class="step-number">Step 3</div>
-                <h3>Development</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                <h3>Build Solutions</h3>
+                <p>We design, develop, and test the solution using modern technologies, agile methodologies, and continuous feedback to ensure optimal delivery.</p>
                 <div class="step-arrow">
                     <i class="bi bi-arrow-right"></i>
                 </div>
@@ -468,8 +481,9 @@
                     <i class="bi bi-rocket-takeoff"></i>
                 </div>
                 <div class="step-number">Step 4</div>
-                <h3>Launch &amp; Support</h3>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.</p>
+                <h3>Deliver & Support</h3>
+                <p>We launch with precision and offer ongoing maintenance, enhancements, and support to ensure long-term success and performance of your solution.
+                </p>
             </div>
         </div>
 
@@ -762,16 +776,16 @@
             <div class="col-lg-6 col-md-6">
                 <div class="service-card featured">
                     <div class="service-icon">
-                        <i class="bi bi-code-slash"></i>
+                        <i class="bi-person-gear"></i>
                     </div>
                     <div class="service-content">
-                        <h3><a href="service-details.html">Web Development</a></h3>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec rutrum congue leo eget malesuada.</p>
+                        <h3><a href="service-details.html">IT Consulting</a></h3>
+                        <p>Technology strategy, digital transformation, system audits, infrastructure planning, and expert guidance to align IT with business goals and long-term innovation.</p>
                         <div class="service-meta">
                             <span class="badge popular">Most Popular</span>
-                            <span class="price">Starting at $2,999</span>
+                            <span class="price">Starting at ₹42,000</span>
                         </div>
-                        <a href="service-details.html" class="btn-cta">
+                        <a href="<?= base_url('service')?>" class="btn-cta">
                             <span>Get Started</span>
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -783,13 +797,13 @@
             <div class="col-lg-6 col-md-6">
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="bi bi-palette"></i>
+                        <i class="bi-code-slash"></i>
                     </div>
                     <div class="service-content">
-                        <h3><a href="service-details.html">UI/UX Design</a></h3>
-                        <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar.</p>
+                        <h3><a href="service-details.html">Software Development</a></h3>
+                        <p>Custom software, mobile apps, responsive web platforms, API integrations, and scalable systems tailored to meet your unique business challenges.</p>
                         <div class="service-meta">
-                            <span class="price">Starting at $1,899</span>
+                            <span class="price">Starting at ₹83,000</span>
                         </div>
                         <a href="service-details.html" class="btn-cta">
                             <span>Learn More</span>
@@ -800,14 +814,14 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-3 col-md-6">
                 <div class="service-card compact">
                     <div class="service-icon">
-                        <i class="bi bi-graph-up-arrow"></i>
+                        <i class="bi-cloud-arrow-up"></i>
                     </div>
                     <div class="service-content">
-                        <h3><a href="service-details.html">Digital Marketing</a></h3>
-                        <p>Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
+                        <h3><a href="service-details.html">Cloud & DevOps</a></h3>
+                        <p>Cloud migration, CI/CD automation, infrastructure as code, DevOps pipelines, and secure cloud management for scalable and high-availability environments.</p>
                         <a href="service-details.html" class="btn-cta">
                             <span>Explore</span>
                             <i class="bi bi-arrow-right"></i>
@@ -817,14 +831,14 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-3 col-md-6">
                 <div class="service-card compact">
                     <div class="service-icon">
-                        <i class="bi bi-shield-check"></i>
+                        <i class="bi-cpu"></i>
                     </div>
                     <div class="service-content">
-                        <h3><a href="service-details.html">Security Solutions</a></h3>
-                        <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar vel. Sed porttitor lectus nibh vestibulum ac diam sit.</p>
+                        <h3><a href="service-details.html">Data & AI Solutions</a></h3>
+                        <p>Data engineering, machine learning, AI models, business intelligence dashboards, and real-time analytics that empower better decisions and automation.</p>
                         <a href="service-details.html" class="btn-cta">
                             <span>Discover</span>
                             <i class="bi bi-arrow-right"></i>
@@ -834,14 +848,30 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-3 col-md-6">
                 <div class="service-card compact">
                     <div class="service-icon">
-                        <i class="bi bi-cloud-upload"></i>
+                        <i class="bi-diagram-3"></i>
                     </div>
                     <div class="service-content">
-                        <h3><a href="service-details.html">Cloud Services</a></h3>
-                        <p>Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
+                        <h3><a href="service-details.html">CRM / ERP Integration</a></h3>
+                        <p>Salesforce, SAP, Zoho, HubSpot setup, CRM workflows, ERP customization, and integrations that unify your business operations and customer management.</p>
+                        <a href="service-details.html" class="btn-cta">
+                            <span>Get Quote</span>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="service-bg"></div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="service-card compact">
+                    <div class="service-icon">
+                        <i class="bi-ui-checks-grid"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3><a href="service-details.html">QA & Automation</a></h3>
+                        <p>Manual and automated testing, performance QA, security testing, bug tracking, and test automation to ensure high-quality, reliable software delivery.</p>
                         <a href="service-details.html" class="btn-cta">
                             <span>Get Quote</span>
                             <i class="bi bi-arrow-right"></i>
@@ -892,7 +922,7 @@
     <!-- Section Title -->
     <div class="container section-title">
         <h2>Pricing</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Flexible Plans That Scale With Your Business Needs</p>
     </div><!-- End Section Title -->
 
     <div class="container">
@@ -907,21 +937,21 @@
                     </div>
                     <h3>Standard</h3>
                     <div class="price">
-                        <span class="currency">$</span>9<span class="period">/month</span>
+                        <span class="currency">₹</span>15,000<span class="period">/month</span>
                     </div>
-                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.</p>
+                    <p class="description">Ideal for startups and small teams building essential digital foundations.</p>
                     <ul class="features-list">
                         <li>
                             <i class="bi bi-check2"></i>
-                            Vestibulum ante ipsum primis
+                            Basic Tech Support
                         </li>
                         <li>
                             <i class="bi bi-check2"></i>
-                            Fusce vulputate eleifend
+                            Entry-Level Features
                         </li>
                         <li>
                             <i class="bi bi-check2"></i>
-                            Nullam ac tortor vitae
+                            One Project Slot
                         </li>
                     </ul>
                     <a href="#" class="btn-pricing">Buy Now</a>
@@ -937,21 +967,21 @@
                     </div>
                     <h3>Professional</h3>
                     <div class="price">
-                        <span class="currency">$</span>29<span class="period">/month</span>
+                        <span class="currency">₹</span>35,000<span class="period">/month</span>
                     </div>
-                    <p class="description">Maecenas tempus tellus eget condimentum rhoncus semper.</p>
+                    <p class="description">Best for scaling businesses needing deeper support and custom integrations.</p>
                     <ul class="features-list">
                         <li>
                             <i class="bi bi-check2"></i>
-                            Donec quam felis ultricies
+                            Custom Integrations
                         </li>
                         <li>
                             <i class="bi bi-check2"></i>
-                            Aenean massa imperdiet
+                            Priority Support
                         </li>
                         <li>
                             <i class="bi bi-check2"></i>
-                            Cras dapibus vivamus
+                            Team Collaboration
                         </li>
                     </ul>
                     <a href="#" class="btn-pricing">Buy Now</a>
@@ -966,21 +996,21 @@
                     </div>
                     <h3>Ultimate</h3>
                     <div class="price">
-                        <span class="currency">$</span>49<span class="period">/month</span>
+                        <span class="currency">₹</span>75,000<span class="period">/month</span>
                     </div>
-                    <p class="description">Etiam rhoncus maecenas tempus tellus eget condimentum.</p>
+                    <p class="description">Complete solution for enterprises needing full-stack services and optimization.</p>
                     <ul class="features-list">
                         <li>
                             <i class="bi bi-check2"></i>
-                            Phasellus viverra nulla
+                            Full DevOps Pipeline
                         </li>
                         <li>
                             <i class="bi bi-check2"></i>
-                            Quisque rutrum aenean
+                            Dedicated Manager
                         </li>
                         <li>
                             <i class="bi bi-check2"></i>
-                            Etiam ultricies nisi vel
+                            Unlimited Projects
                         </li>
                     </ul>
                     <a href="#" class="btn-pricing">Buy Now</a>
@@ -999,7 +1029,7 @@
     <!-- Section Title -->
     <div class="container section-title">
         <h2>Frequently Asked Questions</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Answers to Common Questions About Our Services and Process</p>
     </div><!-- End Section Title -->
 
     <div class="container">
@@ -1014,7 +1044,7 @@
                             <div class="faq-icon">
                                 <i class="bi bi-question-circle"></i>
                             </div>
-                            <h4>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar?</h4>
+                            <h4>What services do you offer?</h4>
                             <div class="faq-toggle">
                                 <i class="bi bi-plus"></i>
                                 <i class="bi bi-dash"></i>
@@ -1022,7 +1052,7 @@
                         </div>
                         <div class="faq-content">
                             <div class="content-inner">
-                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+                                <p>We provide IT consulting, software development, cloud solutions, AI, CRM/ERP, and QA services tailored for businesses of all sizes.</p>
                             </div>
                         </div>
                     </div><!-- End FAQ Item -->
@@ -1032,7 +1062,7 @@
                             <div class="faq-icon">
                                 <i class="bi bi-question-circle"></i>
                             </div>
-                            <h4>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem?</h4>
+                            <h4>How do I get started?</h4>
                             <div class="faq-toggle">
                                 <i class="bi bi-plus"></i>
                                 <i class="bi bi-dash"></i>
@@ -1040,7 +1070,7 @@
                         </div>
                         <div class="faq-content">
                             <div class="content-inner">
-                                <p>Donec rutrum congue leo eget malesuada. Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Proin eget tortor risus. Curabitur aliquet quam id dui posuere blandit.</p>
+                                <p>Simply contact us through our form, book a free consultation, or request a quote directly from the website.</p>
                             </div>
                         </div>
                     </div><!-- End FAQ Item -->
@@ -1050,7 +1080,7 @@
                             <div class="faq-icon">
                                 <i class="bi bi-question-circle"></i>
                             </div>
-                            <h4>Vestibulum ante ipsum primis in faucibus orci luctus?</h4>
+                            <h4>Do you offer custom pricing?</h4>
                             <div class="faq-toggle">
                                 <i class="bi bi-plus"></i>
                                 <i class="bi bi-dash"></i>
@@ -1058,7 +1088,7 @@
                         </div>
                         <div class="faq-content">
                             <div class="content-inner">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                                <p>Yes, we tailor pricing based on project scope, timelines, and complexity. Flexible packages are available.</p>
                             </div>
                         </div>
                     </div><!-- End FAQ Item -->
@@ -1068,7 +1098,7 @@
                             <div class="faq-icon">
                                 <i class="bi bi-question-circle"></i>
                             </div>
-                            <h4>Nulla facilisi morbi tempus iaculis urna id volutpat?</h4>
+                            <h4>Can I hire remote developers?</h4>
                             <div class="faq-toggle">
                                 <i class="bi bi-plus"></i>
                                 <i class="bi bi-dash"></i>
@@ -1076,7 +1106,7 @@
                         </div>
                         <div class="faq-content">
                             <div class="content-inner">
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                                <p>Absolutely. We offer staff augmentation and dedicated remote teams based on your tech requirements.</p>
                             </div>
                         </div>
                     </div><!-- End FAQ Item -->
@@ -1086,7 +1116,7 @@
                             <div class="faq-icon">
                                 <i class="bi bi-question-circle"></i>
                             </div>
-                            <h4>Praesent sapien massa, convallis a pellentesque nec?</h4>
+                            <h4>Is support included in plans?</h4>
                             <div class="faq-toggle">
                                 <i class="bi bi-plus"></i>
                                 <i class="bi bi-dash"></i>
@@ -1094,7 +1124,7 @@
                         </div>
                         <div class="faq-content">
                             <div class="content-inner">
-                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint.</p>
+                                <p>All plans include support. Higher tiers get priority response, dedicated managers, and faster resolution times.</p>
                             </div>
                         </div>
                     </div><!-- End FAQ Item -->
@@ -1124,29 +1154,29 @@
                 <div class="col-lg-7">
                     <div class="cta-content p-5">
                         <span class="badge-custom">Premium Offer</span>
-                        <h2 class="mt-4 mb-4">Transform Your Experience With Our Solution</h2>
-                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <h2 class="mt-4 mb-4">Unlock Exclusive Benefits With Premium Solutions</h2>
+                        <p class="mb-4">Upgrade to our premium plan for advanced tools, priority support, and unbeatable performance optimization.</p>
 
                         <div class="row benefits-row mb-5">
                             <div class="col-md-6">
                                 <div class="benefit-item">
                                     <div class="icon-box">
-                                        <i class="bi bi-lightning-charge-fill"></i>
+                                        <i class="bi-headset"></i>
                                     </div>
                                     <div class="benefit-content">
-                                        <h5>Quick Setup</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <h5>Priority Support</h5>
+                                        <p>Fast help when you need it most.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="benefit-item">
                                     <div class="icon-box">
-                                        <i class="bi bi-shield-check"></i>
+                                        <i class="bi-person-badge"></i>
                                     </div>
                                     <div class="benefit-content">
-                                        <h5>Full Security</h5>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+                                        <h5>Dedicated Manager</h5>
+                                        <p>Your single point of contact always available.</p>
                                     </div>
                                 </div>
                             </div>
@@ -1221,12 +1251,12 @@
                     <div class="testimonial-item">
                         <p>
                             <i class="bi bi-quote quote-icon-left"></i>
-                            <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                            <span>Their cloud and DevOps expertise helped us scale quickly and stay ahead of competitors.</span>
                             <i class="bi bi-quote quote-icon-right"></i>
                         </p>
-                        <img src="assets/img/person/person-m-9.webp" class="testimonial-img" alt="">
-                        <h3>Saul Goodman</h3>
-                        <h4>Ceo &amp; Founder</h4>
+                        <img src="assets/img/users/user3.webp" class="testimonial-img" alt="">
+                        <h3>Aarav Mehta</h3>
+                        <h4>CTO, FinEdge Solutions</h4>
                     </div>
                 </div><!-- End testimonial item -->
 
@@ -1234,12 +1264,12 @@
                     <div class="testimonial-item">
                         <p>
                             <i class="bi bi-quote quote-icon-left"></i>
-                            <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                            <span>Outstanding delivery quality and excellent communication throughout our custom software development project.</span>
                             <i class="bi bi-quote quote-icon-right"></i>
                         </p>
-                        <img src="assets/img/person/person-f-5.webp" class="testimonial-img" alt="">
-                        <h3>Sara Wilsson</h3>
-                        <h4>Designer</h4>
+                        <img src="assets/img/users/user1.webp" class="testimonial-img" alt="">
+                        <h3>Sneha Reddy</h3>
+                        <h4>Product Manager, EduSphere</h4>
                     </div>
                 </div><!-- End testimonial item -->
 
@@ -1247,12 +1277,12 @@
                     <div class="testimonial-item">
                         <p>
                             <i class="bi bi-quote quote-icon-left"></i>
-                            <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                            <span>They delivered a fully secure healthcare platform with flawless execution and support.</span>
                             <i class="bi bi-quote quote-icon-right"></i>
                         </p>
-                        <img src="assets/img/person/person-f-12.webp" class="testimonial-img" alt="">
-                        <h3>Jena Karlis</h3>
-                        <h4>Store Owner</h4>
+                        <img src="assets/img/users/user4.webp" class="testimonial-img" alt="">
+                        <h3>Rohan Kapoor</h3>
+                        <h4>CEO, HealthBridge Technologies</h4>
                     </div>
                 </div><!-- End testimonial item -->
 
@@ -1260,12 +1290,12 @@
                     <div class="testimonial-item">
                         <p>
                             <i class="bi bi-quote quote-icon-left"></i>
-                            <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                            <span>Their CRM integration improved our workflow and customer experience dramatically.</span>
                             <i class="bi bi-quote quote-icon-right"></i>
                         </p>
-                        <img src="assets/img/person/person-m-12.webp" class="testimonial-img" alt="">
-                        <h3>Matt Brandon</h3>
-                        <h4>Freelancer</h4>
+                        <img src="assets/img/users/user2.webp" class="testimonial-img" alt="">
+                        <h3>Neha Joshi</h3>
+                        <h4>Operations Head, RetailSync</h4>
                     </div>
                 </div><!-- End testimonial item -->
 
@@ -1273,12 +1303,12 @@
                     <div class="testimonial-item">
                         <p>
                             <i class="bi bi-quote quote-icon-left"></i>
-                            <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                            <span>The AI models they built gave us insights we never imagined possible.</span>
                             <i class="bi bi-quote quote-icon-right"></i>
                         </p>
-                        <img src="assets/img/person/person-m-13.webp" class="testimonial-img" alt="">
-                        <h3>John Larson</h3>
-                        <h4>Entrepreneur</h4>
+                        <img src="assets/img/users/user5.webp" class="testimonial-img" alt="">
+                        <h3>Vikram Shah</h3>
+                        <h4>Founder, MedAI Labs</h4>
                     </div>
                 </div><!-- End testimonial item -->
 
@@ -1414,7 +1444,7 @@
     <!-- Section Title -->
     <div class="container section-title">
         <h2>Team</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Driven by Experts. Built by Passion</p>
     </div><!-- End Section Title -->
 
     <div class="container">
@@ -1452,11 +1482,10 @@
                 }
             </script>
             <div class="swiper-wrapper">
-
                 <div class="swiper-slide">
                     <div class="team-card">
                         <div class="team-image">
-                            <img src="<?= base_url('ssets/img/person/person-m-3.webp'); ?>" class="img-fluid" alt="" loading="lazy">
+                            <img src="<?= base_url('assets/img/users/user11.webp'); ?>" class="img-fluid" alt="" loading="lazy">
                             <div class="team-overlay">
                                 <div class="social-links">
                                     <a href="#"><i class="bi bi-twitter-x"></i></a>
@@ -1467,17 +1496,16 @@
                             </div>
                         </div>
                         <div class="team-content">
-                            <h3>Marcus Wilson</h3>
+                            <h3>Ravi Nair</h3>
                             <span>Chief Technology Officer</span>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                            <p>Leads our tech strategy with deep expertise in scalable software architecture, DevOps, and enterprise cloud integrations.</p>
                         </div>
-                    </div><!-- End Team Card -->
-                </div><!-- End slide item -->
-
+                    </div>
+                </div>
                 <div class="swiper-slide">
                     <div class="team-card">
                         <div class="team-image">
-                            <img src="<?= base_url('assets/img/person/person-f-5.webp'); ?>" class="img-fluid" alt="" loading="lazy">
+                            <img src="<?= base_url('assets/img/users/user6.webp'); ?>" class="img-fluid" alt="" loading="lazy">
                             <div class="team-overlay">
                                 <div class="social-links">
                                     <a href="#"><i class="bi bi-twitter-x"></i></a>
@@ -1488,17 +1516,17 @@
                             </div>
                         </div>
                         <div class="team-content">
-                            <h3>Sophia Reynolds</h3>
-                            <span>Product Designer</span>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            <h3>Priya Desai</h3>
+                            <span>Head of Product</span>
+                            <p>Drives product vision, user experience, and agile development to ensure each solution meets business and customer goals.</p>
                         </div>
-                    </div><!-- End Team Card -->
-                </div><!-- End slide item -->
+                    </div>
+                </div>
 
                 <div class="swiper-slide">
                     <div class="team-card">
                         <div class="team-image">
-                            <img src="<?= base_url('assets/img/person/person-m-8.webp'); ?>" class="img-fluid" alt="" loading="lazy">
+                            <img src="<?= base_url('assets/img/users/user12.webp'); ?>" class="img-fluid" alt="" loading="lazy">
                             <div class="team-overlay">
                                 <div class="social-links">
                                     <a href="#"><i class="bi bi-twitter-x"></i></a>
@@ -1509,9 +1537,9 @@
                             </div>
                         </div>
                         <div class="team-content">
-                            <h3>Daniel Chen</h3>
-                            <span>Marketing Specialist</span>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <h3>Ankit Sharma</h3>
+                            <span>Lead Software Engineer</span>
+                            <p>Expert in full-stack development, Ravi ensures high-quality coding standards and oversees project delivery across teams.</p>
                         </div>
                     </div><!-- End Team Card -->
                 </div><!-- End slide item -->
@@ -1519,7 +1547,7 @@
                 <div class="swiper-slide">
                     <div class="team-card">
                         <div class="team-image">
-                            <img src="<?= base_url('assets/img/person/person-f-9.webp'); ?>" class="img-fluid" alt="" loading="lazy">
+                            <img src="<?= base_url('assets/img/users/user7.webp'); ?>" class="img-fluid" alt="" loading="lazy">
                             <div class="team-overlay">
                                 <div class="social-links">
                                     <a href="#"><i class="bi bi-twitter-x"></i></a>
@@ -1530,30 +1558,30 @@
                             </div>
                         </div>
                         <div class="team-content">
-                            <h3>Olivia Thompson</h3>
-                            <span>Lead Developer</span>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-                        </div>
-                    </div><!-- End Team Card -->
-                </div><!-- End slide item -->
-
-                <div class="swiper-slide">
-                    <div class="team-card">
-                        <div class="team-image">
-                            <img src="<?= base_url('assets/img/person/person-m-12.webp'); ?>" class="img-fluid" alt="" loading="lazy">
-                            <div class="team-overlay">
-                                <div class="social-links">
-                                    <a href="#"><i class="bi bi-twitter-x"></i></a>
-                                    <a href="#"><i class="bi bi-facebook"></i></a>
-                                    <a href="#"><i class="bi bi-instagram"></i></a>
-                                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h3>Jason Parker</h3>
+                            <h3>Megha Kapoor</h3>
                             <span>UI/UX Designer</span>
-                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.</p>
+                            <p>Designs intuitive, user-friendly interfaces that blend functionality with aesthetics to improve product engagement and usability.</p>
+                        </div>
+                    </div><!-- End Team Card -->
+                </div><!-- End slide item -->
+
+                <div class="swiper-slide">
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="<?= base_url('assets/img/users/user10.webp'); ?>" class="img-fluid" alt="" loading="lazy">
+                            <div class="team-overlay">
+                                <div class="social-links">
+                                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                                    <a href="#"><i class="bi bi-facebook"></i></a>
+                                    <a href="#"><i class="bi bi-instagram"></i></a>
+                                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-content">
+                            <h3>Amit Sinha</h3>
+                            <span>Business Development Manager</span>
+                            <p>Builds strong client relationships, identifies growth opportunities, and helps align our solutions with client business objectives.</p>
                         </div>
                     </div><!-- End Team Card -->
                 </div><!-- End slide item -->
