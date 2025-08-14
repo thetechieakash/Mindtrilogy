@@ -7,7 +7,7 @@ class Service extends BaseController
     public function index(): string
     {
         $data = [
-            'pageTitle' => 'Home',
+            'pageTitle' => 'Service',
         ];
         return view('user/Service', $data);
     }

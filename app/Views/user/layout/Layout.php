@@ -11,8 +11,8 @@
     <meta name="robots" content="noindex, nofollow">
 
     <!-- Favicons -->
-    <link href="<?= base_url('assets/img/favicon/favicon.png'); ?>" rel="icon">
-    <link href="<?= base_url('assets/img/favicon/favicon.png'); ?>" rel="apple-touch-icon">
+    <link href="<?= base_url('assets/img/logo/favicon.png'); ?>" rel="icon">
+    <link href="<?= base_url('assets/img/logo/favicon.png'); ?>" rel="apple-touch-icon">
 
 
     <!-- Fonts -->
@@ -22,12 +22,13 @@
     <link href="<?= base_url('vendor/bootstrap/bootstrap.min.css'); ?>" rel="stylesheet">
     <!-- <link href="<?= base_url('vendor/bootstrap-icon/bootstrap-icons.css'); ?>" rel="stylesheet"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css" integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="<?= base_url('vendor/glightbox/glightbox.min.css'); ?>" rel="stylesheet">
     <link href="<?= base_url('vendor/swiper/swiper-bundle.min.css'); ?>" rel="stylesheet">
 
     <!-- Main CSS File -->
     <link href="<?= base_url('assets/css/main.css'); ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/custom.css'); ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/custom.css') . '?v1.0.1'; ?>" rel="stylesheet">
 
 </head>
 
@@ -59,7 +60,7 @@
             <div class="container position-relative d-flex align-items-center justify-content-between">
                 <a href="<?= base_url(); ?>" class="logo d-flex align-items-center">
                     <!-- Uncomment the line below if you also wish to use an image logo -->
-                    <img src="https://mindtrilogy.com/assets/images/logo/logo6.png" class="" alt="">
+                    <img src="<?= base_url('assets/img/logo/logo66.png'); ?>" class="" alt="">
                     <!-- <h1 class="sitename">Passion</h1> -->
                 </a>
 
@@ -78,7 +79,7 @@
                                 <li><a href="#">Leadership Team</a></li>
                                 <li><a href="#">Our Approach</a></li>
                                 <li><a href="#">Careers</a></li>
-                                <li><a href="#">Life at [Company Name]</a></li>
+                                <li><a href="#">Life at Mindtrilogy</a></li>
                             </ul>
                         </li>
 
@@ -367,7 +368,9 @@
                                             <div class="product-section">
                                                 <div class="product-list">
                                                     <a href="#" class="product-link">
-                                                        <i class="bi-people"></i>
+                                                        <i class="pt-2">
+                                                            <img src="<?= base_url('assets/img/icon/salesforce-logo.svg') ?>" alt="">
+                                                        </i>
                                                         <div>
                                                             <span>Salesforce</span>
                                                             <small>CRM automation and customization</small>
@@ -432,7 +435,7 @@
                         </li><!-- End Megamenu 2 -->
 
                         <li class="dropdown">
-                            <a href="">
+                            <a href="#staffaugmentation">
                                 <span>Staff Augmentation</span> <i class="bi bi-chevron-down toggle-dropdown"></i>
                             </a>
                             <ul>
@@ -443,7 +446,7 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="">
+                            <a href="#industries">
                                 <span>Industries</span> <i class="bi bi-chevron-down toggle-dropdown"></i>
                             </a>
                             <ul>
@@ -455,27 +458,7 @@
                                 <li><a href="#">Manufacturing</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown">
-                            <a href="">
-                                <span>Work / Case Studies</span> <i class="bi bi-chevron-down toggle-dropdown"></i>
-                            </a>
-                            <ul>
-                                <li><a href="#">Case Studies</a></li>
-                                <li><a href="#">Success Stories</a></li>
-                                <li><a href="#">Testimonials</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="">
-                                <span>Insights</span> <i class="bi bi-chevron-down toggle-dropdown"></i>
-                            </a>
-                            <ul>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">News & Updates</a></li>
-                                <li><a href="#">Whitepapers</a></li>
-                                <li><a href="#">Webinars</a></li>
-                            </ul>
-                        </li>
+
                         <li><a href="#contact">Contact</a></li>
 
                     </ul>
@@ -494,60 +477,84 @@
 
     </main>
 
-    <footer id="footer" class="footer position-relative dark-background">
+    <footer id="footer" class="footer position-relative dark-background pb-4 pb-md-0">
         <div class="container footer-top">
             <div class="row gy-4">
-                <div class="col-lg-5 col-md-12 footer-about">
-                    <a href="<?= base_url(); ?>" class="logo d-flex align-items-center">
-                        <img src="https://mindtrilogy.com/assets/images/logo/logo6.png" class="" alt="">
-                    </a>
-                    <p>We are committed to delivering innovative digital solutions that drive results. With expert teams and a client-first approach, we help businesses thrive in the modern tech landscape.</p>
-                    <div class="social-links d-flex mt-4">
-                        <a href=""><i class="bi bi-twitter-x"></i></a>
-                        <a href=""><i class="bi bi-facebook"></i></a>
-                        <a href=""><i class="bi bi-instagram"></i></a>
-                        <a href=""><i class="bi bi-linkedin"></i></a>
+                <div class="row justify-justify-content-evenly align-items-center">
+                    <div class="col-12 col-md-9 footer-about">
+                        <a href="<?= base_url(); ?>" class="logo d-flex align-items-center">
+                            <img src="<?= base_url('assets/img/logo/logo66.png'); ?>" class="" alt="">
+                        </a>
+                        <p>We are committed to delivering innovative digital solutions that drive results. With expert teams and a client-first approach, we help businesses thrive in the modern tech landscape.</p>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="social-links d-flex mt-4">
+                            <a href=""><i class="bi bi-twitter-x"></i></a>
+                            <a href=""><i class="bi bi-facebook"></i></a>
+                            <a href=""><i class="bi bi-instagram"></i></a>
+                            <a href=""><i class="bi bi-linkedin"></i></a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-lg-2 col-6 footer-links">
-                    <h4>Company</h4>
-                    <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Industries</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
+                <div class="row justify-content-start justify-content-md-evenly gy-4">
+                    <div class="col-lg-2 col-md-4 col-6 footer-links">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Industries</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
 
-                <div class="col-lg-2 col-6 footer-links">
-                    <h4>Support</h4>
-                    <ul>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Use</a></li>
-                        <li><a href="#">Sitemap</a></li>
-                    </ul>
-                </div>
+                    <div class="col-lg-2 col-md-4 col-6 footer-links">
+                        <h4>Insights</h4>
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">News & Updates</a></li>
+                            <li><a href="#">Whitepapers</a></li>
+                            <li><a href="#">Webinars</a></li>
+                        </ul>
+                    </div>
 
-                <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start ">
-                    <h4>Contact Us</h4>
-                    <p>A108 Adam Street</p>
-                    <p>New York, NY 535022</p>
-                    <p>United States</p>
-                    <p class="mt-4"><strong>Phone:</strong> <span><a class="text-white" href="tel:+911234567890">+91 123 456 7890</a></span></p>
-                    <p><strong>Email:</strong>
-                        <span><a class="text-white" href="mailto:example@gmail.com">example@gmail.com</a></span>
-                    </p>
+                    <div class="col-lg-2 col-md-4 col-6 footer-links">
+                        <h4>Work / Case Studies</h4>
+                        <ul>
+                            <li><a href="#">Case Studies</a></li>
+                            <li><a href="#">Success Stories</a></li>
+                            <li><a href="#testimonials">Testimonials</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6 footer-links">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6 footer-contact text-center text-md-start ">
+                        <h4>Contact Us</h4>
+                        <p>AJC Bose road</p>
+                        <p>Kolkata,100005</p>
+                        <p>West Bengal, India</p>
+                        <p class="mt-4"><strong>Phone:</strong> <span><a class="text-white" href="tel:+911234567890">+91 123 456 7890</a></span></p>
+                        <p><strong>Email:</strong>
+                            <span><a class="text-white" href="mailto:example@gmail.com">example@gmail.com</a></span>
+                        </p>
+                    </div>
                 </div>
 
             </div>
         </div>
 
-        <div class="container copyright text-center mt-4">
-            <p>© <span>Copyright</span> <strong class="px-1 sitename"><a class="text-white" href="<?= base_url(); ?>">MINDTRILOGY</a></strong> <span>All Rights Reserved</span></p>
-            <div class="credits">
-                Designed by <a class="text-white" href="https://wmsn.in" target="_blank">WMSN</a>
-            </div>
+        <div class="px-md-5 copyright text-center mt-4 d-flex flex-column flex-md-row justify-content-between">
+            <p>&copy; Copyright <strong class="px-1 sitename"><a class="com-name" href="<?= base_url(); ?>"><img src="<?= base_url('assets/img/logo/favicon.png') ?>" alt="small logo">MINDTRILOGY</a></strong> <span>All Rights Reserved</span></p>
+
+            <p class="pe-md-4 mt-1 mt-md-0">Designed by<strong class="px-1 sitename"><a class="text-white" href="https://wmsn.in" target="_blank">WMSN</a></strong></p>
         </div>
 
     </footer>

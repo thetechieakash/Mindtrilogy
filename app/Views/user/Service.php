@@ -1,9 +1,9 @@
 <!-- Layout init  -->
-<?= $this->extend('user\layout\Layout.php'); ?>
+<?= $this->extend('user/layout/Layout.php'); ?>
 
 <!-- Page title  -->
 <?= $this->section('pageTitle'); ?>
-<?= esc($pageTitle) ?? 'Home'; ?>
+<?= esc($pageTitle) ?? 'Service'; ?>
 <?= $this->endSection() ?>
 
 <!-- Main content  -->

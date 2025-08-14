@@ -1,5 +1,5 @@
 <!-- Layout init  -->
-<?= $this->extend('user\layout\Layout.php'); ?>
+<?= $this->extend('user/layout/Layout.php'); ?>
 
 <!-- Page title  -->
 <?= $this->section('pageTitle'); ?>
@@ -9,7 +9,7 @@
 <!-- Main content  -->
 <?= $this->section('content'); ?>
 <!-- Hero Section -->
-<section id="hero" class="hero section dark-background">
+<section id="hero" class="hero section dark-background top-hero">
 
     <div class="hero-background">
         <!-- <img src="<?= base_url('assets/img/bg/bg-14.webp'); ?>" alt="" data-aos-duration="1000"> -->
@@ -83,7 +83,11 @@
 
 <!-- About Section -->
 <section id="about" class="about section">
-
+    <!-- Section Title -->
+    <div class="container section-title">
+        <h2>About Us</h2>
+        <p>Who we are</p>
+    </div><!-- End Section Title -->
     <div class="container">
 
         <div class="row align-items-center">
@@ -265,168 +269,316 @@
 
 </section><!-- /Clients Section -->
 
-<!-- Featured Services Section -->
-<section id="featured-services" class="featured-services section light-background">
-
+<!-- Features Section -->
+<section id="services" class="features section">
     <!-- Section Title -->
     <div class="container section-title">
-        <h2>Featured Services</h2>
-        <p>Featured Srvices</p>
+        <h2>Services</h2>
+        <p>Services we provide</p>
     </div><!-- End Section Title -->
-
     <div class="container">
 
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="services-content" data-aos-duration="900">
-                    <span class="subtitle">Expert Delivery</span>
-                    <h2>Solutions Built for Performance and Scale</h2>
-                    <p data-aos-duration="800">Our featured services are tailored to solve complex business challenges through expert-driven execution in software development, cloud engineering, AI integration, and quality assurance—designed for maximum reliability and business growth.</p>
-                    <div class="mt-4" data-aos-duration="1100">
-                        <a href="#" class="btn-consultation"><span>Request a Consultation</span><i class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="services-image">
-                    <img src="<?= base_url('assets/img/services/services-9.webp'); ?>" alt="Business Services" class="img-fluid">
-                    <div class="shape-circle"></div>
-                    <div class="shape-accent"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row mt-5" data-aos-duration="1000">
-            <div class="col-12">
-                <div class="services-slider swiper init-swiper">
-                    <script type="application/json" class="swiper-config">
-                        {
-                            "slidesPerView": 3,
-                            "spaceBetween": 20,
-                            "loop": true,
-                            "speed": 600,
-                            "autoplay": {
-                                "delay": 5000
-                            },
-                            "navigation": {
-                                "nextEl": ".swiper-nav-next",
-                                "prevEl": ".swiper-nav-prev"
-                            },
-                            "breakpoints": {
-                                "320": {
-                                    "slidesPerView": 1
-                                },
-                                "768": {
-                                    "slidesPerView": 2
-                                },
-                                "992": {
-                                    "slidesPerView": 3
-                                }
-                            }
-                        }
-                    </script>
-                    <div class="swiper-wrapper">
-
-                        <div class="swiper-slide">
-                            <div class="service-card">
+        <div class="row g-4">
+            <div class="col-lg-4">
+                <ul class="nav nav-tabs flex-column" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#features-tab-1" role="tab">
+                            <div class="d-flex align-items-center">
                                 <div class="icon-box">
                                     <i class="bi-person-gear"></i>
                                 </div>
-                                <a href="#" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
-                                <div class="content">
-                                    <h4><a href="#">IT Consulting</a></h4>
-                                    <p>We align your business goals with modern technology through expert IT strategies, digital transformation guidance, and system optimization for long-term growth and agility.</p>
-                                    <div class="service-number">01</div>
+                                <div class="ms-3">
+                                    <h4>IT Consulting</h4>
+                                    <p>Empowering Your Digital Vision</p>
                                 </div>
                             </div>
-                        </div>
+                        </a>
+                    </li>
 
-                        <div class="swiper-slide">
-                            <div class="service-card">
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2" role="tab">
+                            <div class="d-flex align-items-center">
                                 <div class="icon-box">
                                     <i class="bi-code-slash"></i>
                                 </div>
-                                <a href="#" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
-                                <div class="content">
-                                    <h4><a href="#">Software Development</a></h4>
-                                    <p>We build secure, scalable, and user-centric web and mobile applications tailored to your business processes, branding, and growth requirements across all major platforms.</p>
-                                    <div class="service-number">02</div>
+                                <div class="ms-3">
+                                    <h4>Software & App Development</h4>
+                                    <p>Turning Ideas Into Reality</p>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="service-card">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3" role="tab">
+                            <div class="d-flex align-items-center">
                                 <div class="icon-box">
                                     <i class="bi-cloud-arrow-up"></i>
                                 </div>
-                                <a href="#" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
-                                <div class="content">
-                                    <h4><a href="#">Cloud & DevOps</a></h4>
-                                    <p>We enable seamless cloud adoption, CI/CD pipelines, and infrastructure automation to reduce downtime, scale effortlessly, and accelerate delivery with improved operational efficiency.</p>
-                                    <div class="service-number">03</div>
+                                <div class="ms-3">
+                                    <h4>Cloud & DevOps</h4>
+                                    <p>Accelerating Digital Transformation</p>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="service-card">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4" role="tab">
+                            <div class="d-flex align-items-center">
                                 <div class="icon-box">
                                     <i class="bi-cpu"></i>
                                 </div>
-                                <a href="#" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
-                                <div class="content">
-                                    <h4><a href="#">Data &amp; AI Solutions</a></h4>
-                                    <p>Unlock business insights through data engineering, machine learning models, and AI tools that drive smart decision-making and personalized customer experiences.</p>
-                                    <div class="service-number">04</div>
+                                <div class="ms-3">
+                                    <h4>Data & AI Solutions</h4>
+                                    <p>Unlocking Insights That Matter</p>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="service-card">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-5" role="tab">
+                            <div class="d-flex align-items-center">
                                 <div class="icon-box">
                                     <i class="bi-diagram-3"></i>
                                 </div>
-                                <a href="#" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
-                                <div class="content">
-                                    <h4><a href="#">CRM / ERP Integration</a></h4>
-                                    <p>We implement and customize CRM and ERP systems like Salesforce and SAP to streamline operations, improve customer engagement, and enhance workflow automation.</p>
-                                    <div class="service-number">05</div>
+                                <div class="ms-3">
+                                    <h4>CRM / ERP Solutions</h4>
+                                    <p>Streamlining Business Operations</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-card">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-6" role="tab">
+                            <div class="d-flex align-items-center">
                                 <div class="icon-box">
                                     <i class="bi-ui-checks-grid"></i>
                                 </div>
-                                <a href="#" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
-                                <div class="content">
-                                    <h4><a href="#">QA & Automation</a></h4>
-                                    <p>Ensure software quality with manual and automated testing solutions that catch bugs early, improve performance, and guarantee reliable user experiences across all devices.</p>
-                                    <div class="service-number">06</div>
+                                <div class="ms-3">
+                                    <h4>QA & Automation</h4>
+                                    <p>Ensuring Excellence Every Time</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-8">
+                <div class="tab-content">
+                    <div class="tab-pane fade active show" id="features-tab-1" role="tabpanel">
+                        <div class="content-box">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <h3>IT Consulting</h3>
+                                    <p>Our IT consulting service guides your business through strategic technology decisions, ensuring growth, efficiency, and a competitive edge in the evolving market.</p>
+                                    <p class="highlight">We align technology solutions with your business goals, optimizing processes and reducing risks while improving innovation and operational performance.</p>
+                                    <ul class="features-list">
+                                        <li>
+                                            <i class="bi bi-check2-circle"></i>
+                                            <span>Strategic technology planning</span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check2-circle"></i>
+                                            <span>Business process optimization</span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check2-circle"></i>
+                                            <span>Risk and compliance guidance</span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check2-circle"></i>
+                                            <span>Innovation-driven solutions</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="image-box">
+                                        <img src="<?= base_url('assets/img/details/1.webp'); ?>" alt="" class="img-fluid" loading="lazy">
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-12">
-                <div class="swiper-navigation">
-                    <button class="swiper-nav-prev"><i class="bi bi-chevron-left"></i></button>
-                    <button class="swiper-nav-next"><i class="bi bi-chevron-right"></i></button>
+                    <div class="tab-pane fade" id="features-tab-2" role="tabpanel">
+                        <div class="content-box">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <h3>Software & App Development</h3>
+                                    <p>We create custom software and mobile applications tailored to your unique needs, delivering high performance, security, and excellent user experiences.</p>
+                                    <p class="highlight">From concept to deployment, our agile development process ensures rapid delivery without compromising quality or scalability.</p>
+                                    <ul class="features-list">
+                                        <li>
+                                            <i class="bi bi-check2-circle"></i>
+                                            <span>Custom application design</span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check2-circle"></i>
+                                            <span>Agile development process</span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check2-circle"></i>
+                                            <span>High-performance architecture</span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check2-circle"></i>
+                                            <span>Scalable and secure solutions</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="image-box">
+                                        <img src="<?= base_url('assets/img/details/2.webp'); ?>" alt="" class="img-fluid" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="features-tab-3" role="tabpanel">
+                        <div class="content-box">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <h3>Cloud & DevOps</h3>
+                                    <p>Our cloud and DevOps solutions streamline operations, enhance scalability, and reduce costs through automation and modern infrastructure strategies.</p>
+                                    <p class="highlight">We help businesses migrate, manage, and optimize cloud environments while improving deployment speed and system reliability.</p>
+                                    <ul class="features-list">
+                                        <li>
+                                            <i class="bi bi-check2-circle"></i>
+                                            <span>Cloud migration support</span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check2-circle"></i>
+                                            <span>Continuous integration & delivery</span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check2-circle"></i>
+                                            <span>Automated infrastructure management</span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check2-circle"></i>
+                                            <span>Cost optimization strategies</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="image-box">
+                                        <img src="<?= base_url('assets/img/details/3.webp'); ?>" alt="" class="img-fluid" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="features-tab-4" role="tabpanel">
+                        <div class="content-box">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <h3>Data & AI Solutions</h3>
+                                    <p>Our AI-powered solutions help businesses leverage data for smarter decisions, predictive analytics, and personalized customer experiences.</p>
+                                    <p class="highlight">From data collection to visualization, we ensure secure, accurate, and meaningful insights to drive business growth.</p>
+                                    <ul class="features-list">
+                                        <li>
+                                            <i class="bi bi-check2-circle"></i>
+                                            <span>Predictive analytics tools</span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check2-circle"></i>
+                                            <span>Data visualization dashboards</span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check2-circle"></i>
+                                            <span>Machine learning solutions</span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check2-circle"></i>
+                                            <span>Secure data processing</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="image-box">
+                                        <img src="<?= base_url('assets/img/details/4.webp'); ?>" alt="" class="img-fluid" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="features-tab-5" role="tabpanel">
+                        <div class="content-box">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <h3>CRM / ERP Solutions</h3>
+                                    <p>We implement CRM and ERP platforms like Salesforce and SAP to centralize business data and enhance productivity.</p>
+                                    <p class="highlight">Our solutions help automate workflows, improve customer engagement, and provide real-time visibility across operations.</p>
+                                    <ul class="features-list">
+                                        <li>
+                                            <i class="bi bi-check2-circle"></i>
+                                            <span>Salesforce & SAP expertise</span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check2-circle"></i>
+                                            <span>Automated workflow systems</span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check2-circle"></i>
+                                            <span>Centralized data management</span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check2-circle"></i>
+                                            <span>Real-time performance tracking</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="image-box">
+                                        <img src="<?= base_url('assets/img/details/5.webp'); ?>" alt="" class="img-fluid" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="features-tab-6" role="tabpanel">
+                        <div class="content-box">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <h3>QA & Automation</h3>
+                                    <p>Our QA and automation services identify bugs early, ensuring top-quality software performance before and after launch.</p>
+                                    <p class="highlight">Automated testing boosts speed, reduces costs, and maintains consistent quality in your digital products.</p>
+                                    <ul class="features-list">
+                                        <li>
+                                            <i class="bi bi-check2-circle"></i>
+                                            <span>Automated test scripting</span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check2-circle"></i>
+                                            <span>Manual QA testing</span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check2-circle"></i>
+                                            <span>Performance and load testing</span>
+                                        </li>
+                                        <li>
+                                            <i class="bi bi-check2-circle"></i>
+                                            <span>Continuous quality monitoring</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="image-box">
+                                        <img src="<?= base_url('assets/img/details/6.webp'); ?>" alt="" class="img-fluid" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
     </div>
-
-</section><!-- /Featured Services Section -->
+</section><!-- /Features Section -->
 
 <!-- How We Work Section -->
 <section id="how-we-work" class="how-we-work section">
@@ -491,281 +643,12 @@
 
 </section><!-- /How We Work Section -->
 
-<!-- Features Section -->
-<section id="features" class="features section">
-
-    <div class="container">
-
-        <div class="row g-4">
-            <div class="col-lg-4">
-                <ul class="nav nav-tabs flex-column" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#features-tab-1" role="tab">
-                            <div class="d-flex align-items-center">
-                                <div class="icon-box">
-                                    <i class="bi bi-people"></i>
-                                </div>
-                                <div class="ms-3">
-                                    <h4>Vestibulum ante ipsum</h4>
-                                    <p>Proin iaculis purus consequat</p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2" role="tab">
-                            <div class="d-flex align-items-center">
-                                <div class="icon-box">
-                                    <i class="bi bi-heart"></i>
-                                </div>
-                                <div class="ms-3">
-                                    <h4>Curabitur aliquet quam</h4>
-                                    <p>Nulla quis lorem ut libero</p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3" role="tab">
-                            <div class="d-flex align-items-center">
-                                <div class="icon-box">
-                                    <i class="bi bi-house-heart"></i>
-                                </div>
-                                <div class="ms-3">
-                                    <h4>Luna stride flared</h4>
-                                    <p>Sed ut perspiciatis unde omnis</p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4" role="tab">
-                            <div class="d-flex align-items-center">
-                                <div class="icon-box">
-                                    <i class="bi bi-person-heart"></i>
-                                </div>
-                                <div class="ms-3">
-                                    <h4>Quisque Velit Nisi</h4>
-                                    <p>Duis aute irure dolor in</p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-5" role="tab">
-                            <div class="d-flex align-items-center">
-                                <div class="icon-box">
-                                    <i class="bi bi-briefcase"></i>
-                                </div>
-                                <div class="ms-3">
-                                    <h4>Curabitur Aliquet</h4>
-                                    <p>Excepteur sint occaecat cupidatat</p>
-                                </div>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="col-lg-8">
-                <div class="tab-content">
-                    <div class="tab-pane fade active show" id="features-tab-1" role="tabpanel">
-                        <div class="content-box">
-                            <div class="row g-4">
-                                <div class="col-lg-6">
-                                    <h3>Nullam Lacinia Consectetur</h3>
-                                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec velit
-                                        neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>
-                                    <p class="highlight">Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam
-                                        sit amet quam vehicula elementum sed sit amet dui.</p>
-                                    <ul class="features-list">
-                                        <li>
-                                            <i class="bi bi-check2-circle"></i>
-                                            <span>Curabitur aliquet quam id dui posuere blandit</span>
-                                        </li>
-                                        <li>
-                                            <i class="bi bi-check2-circle"></i>
-                                            <span>Nulla quis lorem ut libero malesuada feugiat</span>
-                                        </li>
-                                        <li>
-                                            <i class="bi bi-check2-circle"></i>
-                                            <span>Vestibulum ac diam sit amet quam vehicula</span>
-                                        </li>
-                                        <li>
-                                            <i class="bi bi-check2-circle"></i>
-                                            <span>Donec rutrum congue leo eget malesuada</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="image-box">
-                                        <img src="<?= base_url('assets/img/misc/misc-square-6.webp'); ?>" alt="" class="img-fluid" loading="lazy">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="features-tab-2" role="tabpanel">
-                        <div class="content-box">
-                            <div class="row g-4">
-                                <div class="col-lg-6">
-                                    <h3>Sed Porttitor Lectus Nibh</h3>
-                                    <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Proin eget tortor risus.
-                                        Vestibulum ante ipsum primis in faucibus.</p>
-                                    <p class="highlight">Nulla quis lorem ut libero malesuada feugiat. Nulla quis lorem ut libero
-                                        malesuada feugiat.</p>
-                                    <ul class="features-list">
-                                        <li>
-                                            <i class="bi bi-check2-circle"></i>
-                                            <span>Vivamus suscipit tortor eget felis porttitor</span>
-                                        </li>
-                                        <li>
-                                            <i class="bi bi-check2-circle"></i>
-                                            <span>Curabitur aliquet quam id dui posuere</span>
-                                        </li>
-                                        <li>
-                                            <i class="bi bi-check2-circle"></i>
-                                            <span>Nulla quis lorem ut libero malesuada</span>
-                                        </li>
-                                        <li>
-                                            <i class="bi bi-check2-circle"></i>
-                                            <span>Vestibulum ac diam sit amet quam</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="image-box">
-                                        <img src="<?= base_url('assets/img/misc/misc-square-13.webp'); ?>" alt="" class="img-fluid" loading="lazy">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="features-tab-3" role="tabpanel">
-                        <div class="content-box">
-                            <div class="row g-4">
-                                <div class="col-lg-6">
-                                    <h3>Praesent Sapien Massa</h3>
-                                    <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ante ipsum primis in
-                                        faucibus orci luctus et ultrices posuere cubilia Curae.</p>
-                                    <p class="highlight">Donec sollicitudin molestie malesuada. Vestibulum ac diam sit amet quam vehicula
-                                        elementum sed sit amet dui.</p>
-                                    <ul class="features-list">
-                                        <li>
-                                            <i class="bi bi-check2-circle"></i>
-                                            <span>Curabitur non nulla sit amet nisl</span>
-                                        </li>
-                                        <li>
-                                            <i class="bi bi-check2-circle"></i>
-                                            <span>Vestibulum ac diam sit amet quam</span>
-                                        </li>
-                                        <li>
-                                            <i class="bi bi-check2-circle"></i>
-                                            <span>Donec rutrum congue leo eget</span>
-                                        </li>
-                                        <li>
-                                            <i class="bi bi-check2-circle"></i>
-                                            <span>Nulla quis lorem ut libero</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="image-box">
-                                        <img src="<?= base_url('assets/img/misc/misc-square-3.webp'); ?>" alt="" class="img-fluid" loading="lazy">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="features-tab-4" role="tabpanel">
-                        <div class="content-box">
-                            <div class="row g-4">
-                                <div class="col-lg-6">
-                                    <h3>Curabitur Aliquet Quam</h3>
-                                    <p>Donec sollicitudin molestie malesuada. Vestibulum ac diam sit amet quam vehicula elementum sed sit
-                                        amet dui. Curabitur aliquet quam id dui posuere blandit.</p>
-                                    <p class="highlight">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur
-                                        non nulla sit amet nisl tempus.</p>
-                                    <ul class="features-list">
-                                        <li>
-                                            <i class="bi bi-check2-circle"></i>
-                                            <span>Nulla quis lorem ut libero malesuada</span>
-                                        </li>
-                                        <li>
-                                            <i class="bi bi-check2-circle"></i>
-                                            <span>Curabitur aliquet quam id dui</span>
-                                        </li>
-                                        <li>
-                                            <i class="bi bi-check2-circle"></i>
-                                            <span>Vestibulum ac diam sit amet</span>
-                                        </li>
-                                        <li>
-                                            <i class="bi bi-check2-circle"></i>
-                                            <span>Donec rutrum congue leo</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="image-box">
-                                        <img src="<?= base_url('assets/img/misc/misc-square-5.webp'); ?>" alt="" class="img-fluid" loading="lazy">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="features-tab-5" role="tabpanel">
-                        <div class="content-box">
-                            <div class="row g-4">
-                                <div class="col-lg-6">
-                                    <h3>Vestibulum Ante Ipsum</h3>
-                                    <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Quisque velit nisi, pretium ut
-                                        lacinia in, elementum id enim.</p>
-                                    <p class="highlight">Donec rutrum congue leo eget malesuada. Vestibulum ac diam sit amet quam vehicula
-                                        elementum sed sit amet dui.</p>
-                                    <ul class="features-list">
-                                        <li>
-                                            <i class="bi bi-check2-circle"></i>
-                                            <span>Vivamus suscipit tortor eget felis</span>
-                                        </li>
-                                        <li>
-                                            <i class="bi bi-check2-circle"></i>
-                                            <span>Curabitur aliquet quam id dui</span>
-                                        </li>
-                                        <li>
-                                            <i class="bi bi-check2-circle"></i>
-                                            <span>Nulla quis lorem ut libero</span>
-                                        </li>
-                                        <li>
-                                            <i class="bi bi-check2-circle"></i>
-                                            <span>Vestibulum ac diam sit amet</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="image-box">
-                                        <img src="<?= base_url('assets/img/misc/misc-square-3.webp'); ?>" alt="" class="img-fluid" loading="lazy">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</section><!-- /Features Section -->
-
 <!-- Services Section -->
-<section id="services" class="services section light-background">
+<section id="staffaugmentation" class="services section light-background">
 
     <!-- Section Title -->
     <div class="container section-title">
-        <h2>Services</h2>
+        <h2>Staff Augmentation</h2>
         <p>CHECK OUR SERVICES</p>
     </div><!-- End Section Title -->
 
@@ -776,17 +659,16 @@
             <div class="col-lg-6 col-md-6">
                 <div class="service-card featured">
                     <div class="service-icon">
-                        <i class="bi-person-gear"></i>
+                        <i class="bi-person-badge"></i>
                     </div>
                     <div class="service-content">
-                        <h3><a href="service-details.html">IT Consulting</a></h3>
-                        <p>Technology strategy, digital transformation, system audits, infrastructure planning, and expert guidance to align IT with business goals and long-term innovation.</p>
+                        <h3><a href="<?= base_url('service'); ?>">Hire Dedicated Developers</a></h3>
+                        <p>We provide skilled, dedicated developers who work exclusively on your projects, ensuring full focus, high productivity, and timely delivery.</p>
                         <div class="service-meta">
                             <span class="badge popular">Most Popular</span>
-                            <span class="price">Starting at ₹42,000</span>
                         </div>
-                        <a href="<?= base_url('service')?>" class="btn-cta">
-                            <span>Get Started</span>
+                        <a href="#" class="btn-cta">
+                            <span>Hire Now</span>
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -797,16 +679,13 @@
             <div class="col-lg-6 col-md-6">
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="bi-code-slash"></i>
+                        <i class="bi-people"></i>
                     </div>
                     <div class="service-content">
-                        <h3><a href="service-details.html">Software Development</a></h3>
-                        <p>Custom software, mobile apps, responsive web platforms, API integrations, and scalable systems tailored to meet your unique business challenges.</p>
-                        <div class="service-meta">
-                            <span class="price">Starting at ₹83,000</span>
-                        </div>
-                        <a href="service-details.html" class="btn-cta">
-                            <span>Learn More</span>
+                        <h3><a href="<?= base_url('service'); ?>">Remote Teams</a></h3>
+                        <p>Build remote teams tailored to your needs, combining global talent, flexible collaboration, and cost-efficient operations for maximum business impact.</p>
+                        <a href="<?= base_url('service'); ?>" class="btn-cta">
+                            <span>Build Your Team</span>
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -814,16 +693,17 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6">
-                <div class="service-card compact">
+
+            <div class="col-lg-6 col-md-6">
+                <div class="service-card">
                     <div class="service-icon">
-                        <i class="bi-cloud-arrow-up"></i>
+                        <i class="bi-laptop"></i>
                     </div>
                     <div class="service-content">
-                        <h3><a href="service-details.html">Cloud & DevOps</a></h3>
-                        <p>Cloud migration, CI/CD automation, infrastructure as code, DevOps pipelines, and secure cloud management for scalable and high-availability environments.</p>
-                        <a href="service-details.html" class="btn-cta">
-                            <span>Explore</span>
+                        <h3><a href="<?= base_url('service'); ?>">Hire by Technology</a></h3>
+                        <p>Choose experts in specific technologies to match your project requirements, ensuring precise skills, quality code, and faster product development.</p>
+                        <a href="#" class="btn-cta">
+                            <span>Find Experts</span>
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -831,55 +711,24 @@
                 </div>
             </div>
 
-            <div class="col-lg-3 col-md-6">
-                <div class="service-card compact">
-                    <div class="service-icon">
-                        <i class="bi-cpu"></i>
-                    </div>
-                    <div class="service-content">
-                        <h3><a href="service-details.html">Data & AI Solutions</a></h3>
-                        <p>Data engineering, machine learning, AI models, business intelligence dashboards, and real-time analytics that empower better decisions and automation.</p>
-                        <a href="service-details.html" class="btn-cta">
-                            <span>Discover</span>
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                    <div class="service-bg"></div>
-                </div>
-            </div>
 
-            <div class="col-lg-3 col-md-6">
-                <div class="service-card compact">
+            <div class="col-lg-6 col-md-6">
+                <div class="service-card">
                     <div class="service-icon">
                         <i class="bi-diagram-3"></i>
                     </div>
                     <div class="service-content">
-                        <h3><a href="service-details.html">CRM / ERP Integration</a></h3>
-                        <p>Salesforce, SAP, Zoho, HubSpot setup, CRM workflows, ERP customization, and integrations that unify your business operations and customer management.</p>
-                        <a href="service-details.html" class="btn-cta">
-                            <span>Get Quote</span>
+                        <h3><a href="<?= base_url('service'); ?>">Engagement Models</a></h3>
+                        <p>Select from flexible engagement models like fixed price, hourly, or dedicated to suit your budget, timeline, and project complexity.</p>
+                        <a href="<?= base_url('service'); ?>" class="btn-cta">
+                            <span>Explore Models</span>
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
                     <div class="service-bg"></div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="service-card compact">
-                    <div class="service-icon">
-                        <i class="bi-ui-checks-grid"></i>
-                    </div>
-                    <div class="service-content">
-                        <h3><a href="service-details.html">QA & Automation</a></h3>
-                        <p>Manual and automated testing, performance QA, security testing, bug tracking, and test automation to ensure high-quality, reliable software delivery.</p>
-                        <a href="service-details.html" class="btn-cta">
-                            <span>Get Quote</span>
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                    <div class="service-bg"></div>
-                </div>
-            </div>
+
 
         </div>
 
@@ -916,112 +765,169 @@
 
 </section><!-- /Services Section -->
 
-<!-- Pricing Section -->
-<section id="pricing" class="pricing section">
+
+<!-- Featured Services Section -->
+<section id="industries" class="featured-services section light-background">
 
     <!-- Section Title -->
     <div class="container section-title">
-        <h2>Pricing</h2>
-        <p>Flexible Plans That Scale With Your Business Needs</p>
+        <h2>Industries</h2>
+        <p>Empowering Growth</p>
     </div><!-- End Section Title -->
 
     <div class="container">
 
-        <div class="row gy-4 justify-content-center">
-
-            <!-- Basic Plan -->
-            <div class="col-lg-4 col-md-6">
-                <div class="pricing-item">
-                    <div class="pricing-icon">
-                        <i class="bi bi-star"></i>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="services-content" data-aos-duration="900">
+                    <span class="subtitle">Across Sectors</span>
+                    <h2>Innovative Solutions for Every Industry</h2>
+                    <p data-aos-duration="800">We deliver tailored technology solutions designed to meet the unique needs of diverse industries. From healthcare to manufacturing, our expertise drives innovation, efficiency, and sustainable growth for businesses in competitive markets worldwide.</p>
+                    <div class="mt-4" data-aos-duration="1100">
+                        <a href="#" class="btn-consultation"><span>Explore Industries</span><i class="bi bi-arrow-right"></i></a>
                     </div>
-                    <h3>Standard</h3>
-                    <div class="price">
-                        <span class="currency">₹</span>15,000<span class="period">/month</span>
-                    </div>
-                    <p class="description">Ideal for startups and small teams building essential digital foundations.</p>
-                    <ul class="features-list">
-                        <li>
-                            <i class="bi bi-check2"></i>
-                            Basic Tech Support
-                        </li>
-                        <li>
-                            <i class="bi bi-check2"></i>
-                            Entry-Level Features
-                        </li>
-                        <li>
-                            <i class="bi bi-check2"></i>
-                            One Project Slot
-                        </li>
-                    </ul>
-                    <a href="#" class="btn-pricing">Buy Now</a>
                 </div>
-            </div><!-- End Basic Plan -->
-
-            <!-- Professional Plan -->
-            <div class="col-lg-4 col-md-6">
-                <div class="pricing-item featured">
-                    <div class="pricing-badge">Recommended</div>
-                    <div class="pricing-icon">
-                        <i class="bi bi-stars"></i>
-                    </div>
-                    <h3>Professional</h3>
-                    <div class="price">
-                        <span class="currency">₹</span>35,000<span class="period">/month</span>
-                    </div>
-                    <p class="description">Best for scaling businesses needing deeper support and custom integrations.</p>
-                    <ul class="features-list">
-                        <li>
-                            <i class="bi bi-check2"></i>
-                            Custom Integrations
-                        </li>
-                        <li>
-                            <i class="bi bi-check2"></i>
-                            Priority Support
-                        </li>
-                        <li>
-                            <i class="bi bi-check2"></i>
-                            Team Collaboration
-                        </li>
-                    </ul>
-                    <a href="#" class="btn-pricing">Buy Now</a>
+            </div>
+            <div class="col-lg-6">
+                <div class="services-image">
+                    <img src="<?= base_url('assets/img/services/services-9.webp'); ?>" alt="Business Services" class="img-fluid">
+                    <div class="shape-circle"></div>
+                    <div class="shape-accent"></div>
                 </div>
-            </div><!-- End Professional Plan -->
+            </div>
+        </div>
 
-            <!-- Ultimate Plan -->
-            <div class="col-lg-4 col-md-6">
-                <div class="pricing-item">
-                    <div class="pricing-icon">
-                        <i class="bi bi-star-fill"></i>
+        <div class="row mt-5" data-aos-duration="1000">
+            <div class="col-12">
+                <div class="services-slider swiper init-swiper">
+                    <script type="application/json" class="swiper-config">
+                        {
+                            "slidesPerView": 3,
+                            "spaceBetween": 20,
+                            "loop": true,
+                            "speed": 600,
+                            "autoplay": {
+                                "delay": 5000
+                            },
+                            "navigation": {
+                                "nextEl": ".swiper-nav-next",
+                                "prevEl": ".swiper-nav-prev"
+                            },
+                            "breakpoints": {
+                                "320": {
+                                    "slidesPerView": 1
+                                },
+                                "768": {
+                                    "slidesPerView": 2
+                                },
+                                "992": {
+                                    "slidesPerView": 3
+                                }
+                            }
+                        }
+                    </script>
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="service-card">
+                                <div class="icon-box">
+                                    <i class="bi-heart-pulse"></i>
+                                </div>
+                                <a href="#" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
+                                <div class="content">
+                                    <h4><a href="#">Healthcare</a></h4>
+                                    <p>Transform healthcare with secure, efficient, and innovative digital solutions that enhance patient care, streamline workflows, and ensure compliance with industry standards.</p>
+                                    <div class="service-number">01</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="service-card">
+                                <div class="icon-box">
+                                    <i class="bi-cash-stack"></i>
+                                </div>
+                                <a href="#" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
+                                <div class="content">
+                                    <h4><a href="#">Finance</a></h4>
+                                    <p>Deliver secure, scalable, and compliant financial technology solutions to improve transactions, boost operational efficiency, and protect customer data.</p>
+                                    <div class="service-number">02</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="service-card">
+                                <div class="icon-box">
+                                    <i class="bi-bag-check"></i>
+                                </div>
+                                <a href="#" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
+                                <div class="content">
+                                    <h4><a href="#">eCommerce</a></h4>
+                                    <p>Build engaging, fast, and secure eCommerce platforms that enhance customer experience, improve conversions, and scale with your business growth.</p>
+                                    <div class="service-number">03</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="service-card">
+                                <div class="icon-box">
+                                    <i class="bi-mortarboard"></i>
+                                </div>
+                                <a href="#" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
+                                <div class="content">
+                                    <h4><a href="#">Education</a></h4>
+                                    <p>Create innovative e-learning solutions that improve accessibility, engagement, and outcomes for students, educators, and institutions worldwide.</p>
+                                    <div class="service-number">04</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="service-card">
+                                <div class="icon-box">
+                                    <i class="bi-newspaper"></i>
+                                </div>
+                                <a href="#" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
+                                <div class="content">
+                                    <h4><a href="#">Publishing & Media</a></h4>
+                                    <p>Provide cutting-edge media solutions to manage, publish, and distribute content across platforms for maximum reach and engagement.</p>
+                                    <div class="service-number">05</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="service-card">
+                                <div class="icon-box">
+                                    <i class="bi-gear"></i>
+                                </div>
+                                <a href="#" class="arrow-link"><i class="bi bi-arrow-right"></i></a>
+                                <div class="content">
+                                    <h4><a href="#">Manufacturing</a></h4>
+                                    <p>Enhance manufacturing processes with automation, data-driven insights, and smart solutions for greater productivity and reduced costs.</p>
+                                    <div class="service-number">06</div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
-                    <h3>Ultimate</h3>
-                    <div class="price">
-                        <span class="currency">₹</span>75,000<span class="period">/month</span>
-                    </div>
-                    <p class="description">Complete solution for enterprises needing full-stack services and optimization.</p>
-                    <ul class="features-list">
-                        <li>
-                            <i class="bi bi-check2"></i>
-                            Full DevOps Pipeline
-                        </li>
-                        <li>
-                            <i class="bi bi-check2"></i>
-                            Dedicated Manager
-                        </li>
-                        <li>
-                            <i class="bi bi-check2"></i>
-                            Unlimited Projects
-                        </li>
-                    </ul>
-                    <a href="#" class="btn-pricing">Buy Now</a>
                 </div>
-            </div><!-- End Ultimate Plan -->
+            </div>
+        </div>
 
+        <div class="row">
+            <div class="col-12">
+                <div class="swiper-navigation">
+                    <button class="swiper-nav-prev"><i class="bi bi-chevron-left"></i></button>
+                    <button class="swiper-nav-next"><i class="bi bi-chevron-right"></i></button>
+                </div>
+            </div>
         </div>
 
     </div>
 
-</section><!-- /Pricing Section -->
+</section><!-- /Featured Services Section -->
 
 <!-- Faq Section -->
 <section id="faq" class="faq section">
@@ -1138,85 +1044,12 @@
 
 </section><!-- /Faq Section -->
 
-<!-- Call To Action Section -->
-<section id="call-to-action" class="call-to-action section light-background">
-
-    <div class="container">
-
-        <div class="cta-wrapper">
-            <div class="cta-shapes">
-                <div class="shape shape-1"></div>
-                <div class="shape shape-2"></div>
-                <div class="shape shape-3"></div>
-            </div>
-
-            <div class="row g-0">
-                <div class="col-lg-7">
-                    <div class="cta-content p-5">
-                        <span class="badge-custom">Premium Offer</span>
-                        <h2 class="mt-4 mb-4">Unlock Exclusive Benefits With Premium Solutions</h2>
-                        <p class="mb-4">Upgrade to our premium plan for advanced tools, priority support, and unbeatable performance optimization.</p>
-
-                        <div class="row benefits-row mb-5">
-                            <div class="col-md-6">
-                                <div class="benefit-item">
-                                    <div class="icon-box">
-                                        <i class="bi-headset"></i>
-                                    </div>
-                                    <div class="benefit-content">
-                                        <h5>Priority Support</h5>
-                                        <p>Fast help when you need it most.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="benefit-item">
-                                    <div class="icon-box">
-                                        <i class="bi-person-badge"></i>
-                                    </div>
-                                    <div class="benefit-content">
-                                        <h5>Dedicated Manager</h5>
-                                        <p>Your single point of contact always available.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="action-buttons">
-                            <a href="#" class="btn btn-primary">Start Now</a>
-                            <a href="#" class="btn btn-outline">Learn More</a>
-                            <div class="guarantee-badge">
-                                <i class="bi bi-patch-check-fill"></i>
-                                <span>30-Day Money Back</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-5">
-                    <div class="cta-image-container">
-                        <img src="<?= base_url('assets/img/illustration/illustration-3.webp'); ?>" alt="Illustration" class="img-fluid main-image">
-                        <div class="floating-element element-1">
-                            <i class="bi bi-star-fill"></i>
-                            <span>4.9 Rating</span>
-                        </div>
-                        <div class="floating-element element-2">
-                            <i class="bi bi-people-fill"></i>
-                            <span>10k+ Users</span>
-                        </div>
-                        <div class="pattern-dots"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</section><!-- /Call To Action Section -->
-
 <!-- Testimonials Section -->
 <section id="testimonials" class="testimonials section">
-
+    <div class="container section-title">
+        <h2>Testimonials</h2>
+        <p>Hear from our clients about how we’ve helped them achieve success.</p>
+    </div>
     <div class="container">
 
         <div class="swiper init-swiper">
@@ -1326,7 +1159,7 @@
     <!-- Section Title -->
     <div class="container section-title">
         <h2>Portfolio</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Transforming Ideas Into Reality</p>
     </div><!-- End Section Title -->
 
     <div class="container">
@@ -1334,13 +1167,13 @@
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
             <div class="row">
-                <div class="col-lg-12 d-flex justify-content-center mt-4">
+                <div class="col-lg-12 d-flex justify-content-center mt-2">
                     <ul class="portfolio-filters isotope-filters">
                         <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-photography">Photography</li>
-                        <li data-filter=".filter-design">Design</li>
-                        <li data-filter=".filter-automotive">Automotive</li>
-                        <li data-filter=".filter-nature">Nature</li>
+                        <li data-filter=".filter-photography">Design</li>
+                        <li data-filter=".filter-design">Features</li>
+                        <li data-filter=".filter-automotive">Cool</li>
+                        <li data-filter=".filter-nature">UI &amp; UX</li>
                     </ul>
                 </div>
             </div>
@@ -1349,13 +1182,12 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-photography">
                     <div class="portfolio-wrap">
-                        <img src="<?= base_url('assets/img/portfolio/portfolio-portrait-1.webp'); ?>" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                        <img src="<?= base_url('assets/img/portfolio/1.webp'); ?>" class="img-fluid" alt="Portfolio Image" loading="lazy">
                         <div class="portfolio-info">
-                            <h4>Capturing Moments</h4>
-                            <p>Photography</p>
+                            <h4>Smooth UI</h4>
+                            <p>App</p>
                             <div class="portfolio-links">
-                                <a href="<?= base_url('assets/img/portfolio/portfolio-portrait-1.webp'); ?>" class="glightbox" title="Capturing Moments"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link-45deg"></i></a>
+                                <a href="<?= base_url('assets/img/portfolio/1.webp'); ?>" class="glightbox" title="Capturing Moments"><i class="bi bi-zoom-in"></i></a>
                             </div>
                         </div>
                     </div>
@@ -1363,13 +1195,12 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
                     <div class="portfolio-wrap">
-                        <img src="<?= base_url('assets/img/portfolio/portfolio-2.webp'); ?>" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                        <img src="<?= base_url('assets/img/portfolio/2.webp'); ?>" class="img-fluid" alt="Portfolio Image" loading="lazy">
                         <div class="portfolio-info">
                             <h4>Woodcraft Design</h4>
                             <p>Web Design</p>
                             <div class="portfolio-links">
-                                <a href="<?= base_url('assets/img/portfolio/portfolio-2.webp'); ?>" class="glightbox" title="Woodcraft Design"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link-45deg"></i></a>
+                                <a href="<?= base_url('assets/img/portfolio/2.webp'); ?>" class="glightbox" title="Woodcraft Design"><i class="bi bi-zoom-in"></i></a>
                             </div>
                         </div>
                     </div>
@@ -1377,13 +1208,12 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-automotive">
                     <div class="portfolio-wrap">
-                        <img src="<?= base_url('assets/img/portfolio/portfolio-portrait-2.webp'); ?>" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                        <img src="<?= base_url('assets/img/portfolio/4.webp'); ?>" class="img-fluid" alt="Portfolio Image" loading="lazy">
                         <div class="portfolio-info">
                             <h4>Classic Beauty</h4>
                             <p>Automotive</p>
                             <div class="portfolio-links">
-                                <a href="<?= base_url('assets/img/portfolio/portfolio-portrait-2.webp'); ?>" class="glightbox" title="Classic Beauty"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link-45deg"></i></a>
+                                <a href="<?= base_url('assets/img/portfolio/4.webp'); ?>" class="glightbox" title="Classic Beauty"><i class="bi bi-zoom-in"></i></a>
                             </div>
                         </div>
                     </div>
@@ -1391,13 +1221,12 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-nature">
                     <div class="portfolio-wrap">
-                        <img src="<?= base_url('assets/img/portfolio/portfolio-portrait-4.webp'); ?>" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                        <img src="<?= base_url('assets/img/portfolio/6.webp'); ?>" class="img-fluid" alt="Portfolio Image" loading="lazy">
                         <div class="portfolio-info">
                             <h4>Natural Growth</h4>
                             <p>Nature</p>
                             <div class="portfolio-links">
-                                <a href="<?= base_url('assets/img/portfolio/portfolio-portrait-4.webp'); ?>" class="glightbox" title="Natural Growth"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link-45deg"></i></a>
+                                <a href="<?= base_url('assets/img/portfolio/6.webp'); ?>" class="glightbox" title="Natural Growth"><i class="bi bi-zoom-in"></i></a>
                             </div>
                         </div>
                     </div>
@@ -1405,13 +1234,12 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-photography">
                     <div class="portfolio-wrap">
-                        <img src="<?= base_url('assets/img/portfolio/portfolio-5.webp'); ?>" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                        <img src="<?= base_url('assets/img/portfolio/5.webp'); ?>" class="img-fluid" alt="Portfolio Image" loading="lazy">
                         <div class="portfolio-info">
                             <h4>Urban Stories</h4>
                             <p>Photography</p>
                             <div class="portfolio-links">
-                                <a href="<?= base_url('assets/img/portfolio/portfolio-5.webp'); ?>" class="glightbox" title="Urban Stories"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link-45deg"></i></a>
+                                <a href="<?= base_url('assets/img/portfolio/5.webp'); ?>" class="glightbox" title="Urban Stories"><i class="bi bi-zoom-in"></i></a>
                             </div>
                         </div>
                     </div>
@@ -1419,13 +1247,12 @@
 
                 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
                     <div class="portfolio-wrap">
-                        <img src="<?= base_url('assets/img/portfolio/portfolio-6.webp'); ?>" class="img-fluid" alt="Portfolio Image" loading="lazy">
+                        <img src="<?= base_url('assets/img/portfolio/3.webp'); ?>" class="img-fluid" alt="Portfolio Image" loading="lazy">
                         <div class="portfolio-info">
                             <h4>Digital Experience</h4>
                             <p>Web Design</p>
                             <div class="portfolio-links">
-                                <a href="<?= base_url('assets/img/portfolio/portfolio-6.webp'); ?>" class="glightbox" title="Digital Experience"><i class="bi bi-zoom-in"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link-45deg"></i></a>
+                                <a href="<?= base_url('assets/img/portfolio/3.webp'); ?>" class="glightbox" title="Digital Experience"><i class="bi bi-zoom-in"></i></a>
                             </div>
                         </div>
                     </div>
@@ -1601,13 +1428,13 @@
     <!-- Section Title -->
     <div class="container section-title">
         <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>Let’s Build Something Great Together</p>
     </div><!-- End Section Title -->
 
     <div class="container">
         <div class="contact-main-wrapper">
             <div class="map-wrapper">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3123.6137305387574!2d88.3486188!3d22.541652899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0276561af736df%3A0x32589994002c17db!2sAcharya%20Jagdish%20Chandra%20Bose%20Rd%2C%20Kolkata%2C%20West%20Bengal!5e1!3m2!1sen!2sin!4v1755000102201!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div class="contact-content">
@@ -1618,7 +1445,7 @@
                         </div>
                         <div class="contact-text">
                             <h4>Location</h4>
-                            <p>8721 Broadway Avenue, New York, NY 10023</p>
+                            <p>AJC Bose road,Kolkata,100005</p>
                         </div>
                     </div>
 
@@ -1628,7 +1455,7 @@
                         </div>
                         <div class="contact-text">
                             <h4>Email</h4>
-                            <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="036a6d656c43667b626e736f66606c6e73626d7a2d606c6e">[email&#160;protected]</a></p>
+                            <p><a href="mailto:info@mindtrilogy.com">info@mindtrilogy.com</a></p>
                         </div>
                     </div>
 
@@ -1638,7 +1465,7 @@
                         </div>
                         <div class="contact-text">
                             <h4>Call</h4>
-                            <p>+1 (212) 555-7890</p>
+                            <p>+91 123 456 7890</p>
                         </div>
                     </div>
 
@@ -1655,7 +1482,7 @@
 
                 <div class="contact-form-container">
                     <h3>Get in Touch</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur adipiscing.</p>
+                    <p>We'd love to hear from you! Whether you have questions, project ideas, or just want to explore possibilities, our team is here to help you every step of the way.</p>
 
                     <form action="forms/contact.php" method="post" class="php-email-form">
                         <div class="row">
