@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/-Mysql-black?style=for-the-badge&logoColor=white&logo=Mysql&color=3e6e93" alt="Mysql" />
   </div>
 
-  <h3 align="center">A Hotel and Trip booking app.</h3>
+  <h3 align="center">A Agency site</h3>
 </div>
 
 
@@ -54,9 +54,9 @@ Make sure you have the following installed on your machine:
 
 ```bash
 
-git clone https://github.com/thetechieakash/booking.git
+git clone https://github.com/thetechieakash/Mindtrilogy.git
 
-cd booking
+cd Mindtrilogy
 
 ```
 
@@ -69,52 +69,6 @@ Install the project dependencies using composer:
 composer install
 
 ```
-<!--
-**Set Up Environment Variables**
-
-make `env` to `.env` (add `.`) file and uncomment following content:
-
-```env
-
-database.default.hostname = localhost
-database.default.database = booking_db
-database.default.username = root
-database.default.password = 
-database.default.DBDriver = MySQLi
-database.default.DBPrefix =
-database.default.port = 3306
-
-```
-
-Replace the placeholder values with your actual MySql database credentials.
-
-**Create a Database**
-
-Create a database name as 
-
-`database.default.database = booking_db ` 
-
-**Migrate Database**
-
-```bash
-
-php spark migrate
-
-```
-
-**OR**
-
-
-
- **Insert Default DB seeder**
-
-```bash
-
-php spark db:seed AdminSeeder
-
-php spark db:seed AmenitiesSeeder
-
-``` -->
 **Running the Project**
 
 ```bash
@@ -122,9 +76,3 @@ php spark db:seed AmenitiesSeeder
 php spark serve
 
 ```
-
-<!-- **Default Admin credentials**
-
-`Username = `
-
-`Password = ` -->

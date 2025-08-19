@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
 section {
     padding-top: 30px !important;
     padding-bottom: 30px !important;
@@ -20,5 +22,163 @@ section {
     img {
         width: 30px;
         padding-right: 5px;
+    }
+}
+
+#contactform {
+    padding: 30px;
+    background: #011522;
+}
+
+#contactform {
+    border-radius: 15px;
+
+    .contact-form-title {
+        font-size: 42px;
+        color: #fff;
+        margin-bottom: 40px;
+    }
+
+    input {
+        width: 100%;
+        height: 60px;
+        outline: 0;
+        padding: 0 20px;
+        color: var(--rs-white);
+        border-radius: 5px;
+        border: 1px solid #1E2A37;
+        background: #131C25;
+        color: #fff;
+    }
+
+    textarea {
+        height: 140px;
+        padding: 16px 15px 16px 18px;
+        resize: none;
+        color: var(--rs-white);
+        border-radius: 5px;
+        border: 1px solid #1E2A37;
+        background: #131C25;
+        color: #fff;
+    }
+
+    .form-control:focus {
+        box-shadow: none;
+    }
+
+    .form-submit button {
+        background-color: var(--accent-color);
+        color: var(--contrast-color);
+        font-weight: 600;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        border-width: initial;
+        border-style: none;
+        border-color: initial;
+        border-image: initial;
+        padding: 12px 28px;
+        border-radius: 50px;
+        transition: 0.3s;
+        margin: 10px 0;
+    }
+
+    input,
+    textarea {
+        &:focus {
+            border-color: var(--accent-color);
+        }
+
+        &::placeholder {
+            color: #7D858E;
+        }
+    }
+}
+
+.cs-header {
+    font-size: 50px;
+    font-weight: 600;
+    word-break: break-word;
+    margin-bottom: 30px;
+    max-width: 70%;
+}
+
+@media only screen and (max-width: 768px) {
+    .cs-header {
+        font-size: 40px;
+        max-width: 100%;
+    }
+    .cr{
+        float: right;
+    }
+}
+
+.cr {
+    width: 10rem;
+    height: 10rem;
+    display: inline-block;
+    font: 300 1.55rem/1.4 "Josefin Sans";
+    text-transform: uppercase;
+    letter-spacing: 0.1175em;
+    word-spacing: 0.3em;
+    text-decoration: none;
+}
+
+.cr__svg {
+    width: 100%;
+    height: auto;
+    transform-box: fill-box;
+    fill: #2b3338;
+    stroke: #2b3338;
+    stroke-width: 0.05em;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.cr__cloud {
+    transform-origin: 50% 50%;
+    animation: rotate normal infinite 60s linear;
+    fill: rgba(255, 255, 255, 0.15);
+}
+
+.cr__face,
+.cr__arrow {
+    transform-origin: 50% 50%;
+    transition: transform 0.15s cubic-bezier(0.32, 0, 0.67, 0);
+}
+
+.cr:hover .cr__face,
+.cr:hover .cr__arrow {
+    transform: scale(1.1);
+    transition: transform 0.3s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.cr__arrow {
+    stroke-width: 0.075em;
+}
+
+.cr__text {
+    animation: rotateReverse normal infinite 20s linear;
+    transform-origin: 50% 50%;
+}
+
+.cr:hover .cr__text {
+    animation-play-state: paused;
+}
+
+.cr--alt {
+    font-size: 1.15rem;
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateReverse {
+    to {
+        transform: rotate(-360deg);
     }
 }

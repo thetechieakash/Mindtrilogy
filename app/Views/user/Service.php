@@ -6,6 +6,10 @@
 <?= esc($pageTitle) ?? 'Service'; ?>
 <?= $this->endSection() ?>
 
+<!-- Css library  -->
+<?= $this->section('csslib'); ?>
+<?= $this->endSection(); ?>
+
 <!-- Main content  -->
 <?= $this->section('content'); ?>
 <!-- Page Title -->
@@ -220,5 +224,14 @@
 
     </div>
 
+
 </section><!-- /Service Details Section -->
+<?= $this->endSection(); ?>
+
+<!-- Js Library -->
+<?= $this->section('jslib'); ?>
+<?= $this->endSection(); ?>
+
+<!-- Custom Js code -->
+<?= $this->section('customjs'); ?>
 <?= $this->endSection(); ?>

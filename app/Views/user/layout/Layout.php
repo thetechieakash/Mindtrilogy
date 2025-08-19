@@ -25,10 +25,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="<?= base_url('vendor/glightbox/glightbox.min.css'); ?>" rel="stylesheet">
     <link href="<?= base_url('vendor/swiper/swiper-bundle.min.css'); ?>" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <?= $this->renderSection('csslib'); ?>
+    
     <!-- Main CSS File -->
     <link href="<?= base_url('assets/css/main.css'); ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/custom.css') . '?v1.0.1'; ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/custom.css') . '?v1.1.1'; ?>" rel="stylesheet">
+    <?= $this->renderSection('custompagecss'); ?>
 
 </head>
 
@@ -75,7 +78,7 @@
                                 <span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i>
                             </a>
                             <ul>
-                                <li><a href="#">Who We Are</a></li>
+                                <li><a href="<?= base_url('about_us') ?>">Who We Are</a></li>
                                 <li><a href="#">Leadership Team</a></li>
                                 <li><a href="#">Our Approach</a></li>
                                 <li><a href="#">Careers</a></li>
@@ -368,9 +371,7 @@
                                             <div class="product-section">
                                                 <div class="product-list">
                                                     <a href="#" class="product-link">
-                                                        <i class="pt-2">
-                                                            <img src="<?= base_url('assets/img/icon/salesforce-logo.svg') ?>" alt="">
-                                                        </i>
+                                                        <i class="fab fa-salesforce pt-3"></i>
                                                         <div>
                                                             <span>Salesforce</span>
                                                             <small>CRM automation and customization</small>
@@ -553,8 +554,6 @@
 
         <div class="px-md-5 copyright text-center mt-4 d-flex flex-column flex-md-row justify-content-between">
             <p>&copy; Copyright <strong class="px-1 sitename"><a class="com-name" href="<?= base_url(); ?>"><img src="<?= base_url('assets/img/logo/favicon.png') ?>" alt="small logo">MINDTRILOGY</a></strong> <span>All Rights Reserved</span></p>
-
-            <p class="pe-md-4 mt-1 mt-md-0">Designed by<strong class="px-1 sitename"><a class="text-white" href="https://wmsn.in" target="_blank">WMSN</a></strong></p>
         </div>
 
     </footer>
@@ -571,7 +570,6 @@
     </div>
 
     <!-- Vendor JS Files -->
-    <script data-cfasync="false" src="<?= base_url('vendor/email-decode/email-decode.min.js'); ?>"></script>
     <script src="<?= base_url('vendor/bootstrap/bootstrap.bundle.min.js'); ?>"></script>
     <script src="<?= base_url('vendor/validate/validate.js'); ?>"></script>
     <script src="<?= base_url('vendor/glightbox/glightbox.min.js'); ?>"></script>
@@ -579,9 +577,11 @@
     <script src="<?= base_url('vendor/swiper/swiper-bundle.min.js'); ?>"></script>
     <script src="<?= base_url('vendor/imagesloaded/imagesloaded.pkgd.min.js'); ?>"></script>
     <script src="<?= base_url('vendor/isotope/isotope.pkgd.min.js'); ?>"></script>
+    <?= $this->renderSection('jslib'); ?>
 
     <!-- Main JS File -->
     <script src="<?= base_url('assets/js/main.js') ?>"></script>
+    <?= $this->renderSection('customjs'); ?>
 </body>
 
 </html>

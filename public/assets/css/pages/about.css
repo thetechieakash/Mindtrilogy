@@ -1,0 +1,367 @@
+.about-swiper img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.rs-about-three {
+    position: relative;
+    z-index: 1
+}
+
+@media only screen and (max-width:1366px) {
+    .rs-about-three .about-thumb {
+        position: sticky;
+        top: 110px
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .rs-about-three .about-thumb {
+        position: relative;
+        top: unset
+    }
+}
+
+.rs-about-three .about-thumb img {
+    width: 100%
+}
+
+.rs-about-three .about-wrapper {
+    display: grid;
+    grid-template-columns: 545px auto;
+    gap: 30px 85px;
+    align-items: center
+}
+
+@media only screen and (max-width:1600px) {
+    .rs-about-three .about-wrapper {
+        grid-template-columns: 470px auto;
+        gap: 30px 30px;
+        align-items: start
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    .rs-about-three .about-wrapper {
+        grid-template-columns: 430px auto
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .rs-about-three .about-wrapper {
+        grid-template-columns: auto
+    }
+}
+
+.rs-about-three .section-description {
+    margin-top: 20px;
+    margin-bottom: 23px
+}
+
+.rs-about-six .about-thumb {
+    max-width: 480px;
+    overflow: hidden
+}
+
+@media only screen and (max-width:1600px) {
+    .rs-about-six .about-thumb {
+        position: sticky;
+        top: 110px
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .rs-about-six .about-thumb {
+        position: relative;
+        top: unset;
+        max-width: 100%
+    }
+}
+
+.rs-about-six .about-thumb img {
+    width: 100%;
+    border-radius: 20px;
+    transition: unset
+}
+
+.rs-about-six .section-title-wrapper {
+    display: flex;
+    gap: 30px 65px
+}
+
+@media only screen and (max-width:991px) {
+    .rs-about-six .section-title-wrapper {
+        gap: 30px 30px
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .rs-about-six .section-title-wrapper {
+        flex-wrap: wrap;
+        gap: 20px 30px
+    }
+}
+
+.rs-about-six .divider-line {
+    width: 190px;
+    background: #7df31d;
+    height: 2px;
+    position: relative;
+    display: inline-block;
+    min-width: 190px;
+    margin-top: 25px
+}
+
+@media only screen and (max-width:767px) {
+    .rs-about-six .divider-line {
+        margin-top: 0
+    }
+}
+
+.rs-about-six .about-description {
+    margin-bottom: 40px
+}
+
+.rs-about-six .about-content-wrapper {
+    margin-inline-end: 10px
+}
+
+@media only screen and (max-width:991px) {
+    .rs-about-six .about-content-wrapper {
+        margin-inline-end: 0
+    }
+}
+
+.rs-accordion-three .accordion-button {
+    background-color: transparent;
+    padding: 0;
+    box-shadow: none;
+    padding: 0 50px 0 0
+}
+
+.rs-accordion-three .accordion-button .accordion-title {
+    font-size: 28px;
+    font-weight: 700;
+    background-color: transparent;
+    padding-right: 50px;
+    color: #000;
+    padding: 0;
+    background-image: linear-gradient(to bottom, var(--accent-color) 0, var(--accent-color) 100%);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 0 2px;
+    transition: all .3s, background-size .5s;
+    display: inline-flex
+}
+
+@media only screen and (max-width:1600px) {
+    .rs-accordion-three .accordion-button .accordion-title {
+        font-size: 24px
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .rs-accordion-three .accordion-button .accordion-title {
+        font-size: 22px
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .rs-accordion-three .accordion-button .accordion-title {
+        font-size: 20px
+    }
+}
+
+.rs-accordion-three .accordion-button::after {
+    content: none
+}
+
+.rs-accordion-three .accordion-button:not(.collapsed) {
+    box-shadow: none
+}
+
+.rs-accordion-three .accordion-button:not(.collapsed) .accordion-title {
+    background-size: 100% 2px
+}
+
+.rs-accordion-three .accordion-button:not(.collapsed) .accordion-icon {
+    background: #5fddad;
+    border-color: #5fddad
+}
+
+.rs-accordion-three .accordion-button:not(.collapsed) .accordion-icon svg {
+    transform: rotate(90deg)
+}
+
+.rs-accordion-three .accordion-icon {
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-align: center;
+    transition: all .4s ease-out 0s;
+    background: rgb(52 134 89 / 22%)
+}
+
+.rs-accordion-three .accordion-icon svg {
+    width: 16px
+}
+
+.rs-accordion-three .accordion-icon svg path {
+    fill: var(--rs-theme-secondary);
+    transition: all .4s ease-out 0s
+}
+
+.rs-accordion-three .accordion-item {
+    padding: 22px 0 22px 0;
+    border: 0;
+    border-bottom: 1px solid #ebebeb;
+    position: relative
+}
+
+.rs-accordion-three .accordion-item:first-child {
+    border-top: 1px solid #ebebeb
+}
+
+.rs-accordion-three .accordion-body {
+    color: var(--rs-text-primary);
+    padding: 20px 50px 0 0;
+    line-height: 28px
+}
+
+@media only screen and (max-width:767px) {
+    .rs-accordion-three .accordion-body {
+        padding: 20px 0 0 0
+    }
+}
+
+.acard {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+}
+
+.acard-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.999s;
+}
+
+.acard:hover .acard-inner {
+    transform: rotateY(180deg);
+}
+
+.acard-front,
+.acard-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.acard-front {
+    background-color: #6A2C70;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border: 10px solid #6A2C70;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: 24px;
+    transform: rotateY(0deg);
+}
+
+.acard-back {
+    background-color: #F08A5D;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border: 10px solid #F08A5D;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: 24px;
+    transform: rotateY(180deg);
+}
+
+.testimonials .testimonial-item .about-quote-icon-left {
+    color: color-mix(in srgb, var(--accent-color), transparent 40%);
+    font-size: 40px;
+}
+
+.testimonial-item.about-tes-item {
+    text-align: left !important;
+}
+
+.testimonial-thumb img {
+    width: 100%;
+    border-radius: 10px;
+    transition: unset;
+}
+
+.about-slider-text {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.testimonials .testimonial-item p {
+    margin: 0 0 15px 0;
+    padding: 20px 0;
+    margin-bottom: 35px;
+}
+
+.testimonials .testimonial-item span {
+    font-size: 18px;
+}
+
+.testimonials .about-tes-item .testimonial-img {
+    margin: 0 10px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    width: 40px;
+    height: 40px;
+    background: #10171E;
+    color: var(--accent-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 14px;
+    transition: all 0.3s 0s ease-out;
+    cursor: pointer;
+    background-image: none !important;
+    text-align: center;
+}
+
+.swiper-button-next::after {
+    font-family: "Font Awesome 7 Free";
+    font-weight: 900;
+    content: "\f060";
+    color: var(--accent-color);
+    font-size: 18px;
+}
+
+.swiper-button-prev::after {
+    font-family: "Font Awesome 7 Free";
+    font-weight: 900;
+    content: "\f061";
+    color: var(--accent-color);
+    font-size: 18px;
+}
+
+.swiper {
+    position: relative;
+}
+
+.icon-set {
+    position: absolute;
+    bottom: 10%;
+    right: 15%;
+}

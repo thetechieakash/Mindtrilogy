@@ -6,6 +6,10 @@
 <?= esc($pageTitle) ?? 'Home'; ?>
 <?= $this->endSection() ?>
 
+<!-- Css library  -->
+<?= $this->section('csslib'); ?>
+<?= $this->endSection(); ?>
+
 <!-- Main content  -->
 <?= $this->section('content'); ?>
 <!-- Hero Section -->
@@ -1521,4 +1525,12 @@
         </div>
     </div>
 </section><!-- /Contact Section -->
+<?= $this->endSection(); ?>
+
+<!-- Js Library -->
+<?= $this->section('jslib'); ?>
+<?= $this->endSection(); ?>
+
+<!-- Custom Js code -->
+<?= $this->section('customjs'); ?>
 <?= $this->endSection(); ?>
