@@ -27,10 +27,10 @@
     <link href="<?= base_url('vendor/swiper/swiper-bundle.min.css'); ?>" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <?= $this->renderSection('csslib'); ?>
-    
+
     <!-- Main CSS File -->
     <link href="<?= base_url('assets/css/main.css'); ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/custom.css') . '?v1.1.1'; ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/custom.css') . '?v1.2.1'; ?>" rel="stylesheet">
     <?= $this->renderSection('custompagecss'); ?>
 
 </head>
@@ -79,7 +79,7 @@
                             </a>
                             <ul>
                                 <li><a href="<?= base_url('about_us') ?>">Who We Are</a></li>
-                                <li><a href="#">Leadership Team</a></li>
+                                <li><a href="<?= base_url('team') ?>">Leadership Team</a></li>
                                 <li><a href="#">Our Approach</a></li>
                                 <li><a href="#">Careers</a></li>
                                 <li><a href="#">Life at Mindtrilogy</a></li>
@@ -502,7 +502,7 @@
                     <div class="col-lg-2 col-md-4 col-6 footer-links">
                         <h4>Company</h4>
                         <ul>
-                            <li><a href="#">About Us</a></li>
+                            <li><a href="<?= base_url('about_us') ?>">About Us</a></li>
                             <li><a href="#">Services</a></li>
                             <li><a href="#">Industries</a></li>
                             <li><a href="#">Contact</a></li>
