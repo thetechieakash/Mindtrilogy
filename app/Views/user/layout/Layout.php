@@ -30,7 +30,7 @@
 
     <!-- Main CSS File -->
     <link href="<?= base_url('assets/css/main.css'); ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/custom.css') . '?v1.2.1'; ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/custom.css') . '?v1.3.2'; ?>" rel="stylesheet">
     <?= $this->renderSection('custompagecss'); ?>
 
 </head>
@@ -80,7 +80,7 @@
                             <ul>
                                 <li><a href="<?= base_url('about_us') ?>">Who We Are</a></li>
                                 <li><a href="<?= base_url('team') ?>">Leadership Team</a></li>
-                                <li><a href="#">Our Approach</a></li>
+                                <li><a href="<?= base_url('approach') ?>">Our Approach</a></li>
                                 <li><a href="#">Careers</a></li>
                                 <li><a href="#">Life at Mindtrilogy</a></li>
                             </ul>

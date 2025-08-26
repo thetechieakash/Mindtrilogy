@@ -29,13 +29,13 @@
     </div>
 </div>
 <section>
-    <div class="container section-title">
+    <div class="container section-title pb-0">
         <h2>Brains Behind the Vision</h2>
     </div>
     <div class="container">
         <!-- Swiper Carousel -->
         <div class="swiper leadership-carousel">
-            <div class="swiper-wrapper">
+            <div class="swiper-wrapper pt-3">
                 <div class="swiper-slide team-slide" data-target="leader1">
                     <div class="team-slide-el">
                         <img src="<?= base_url('assets/img/users/user11.webp'); ?>" alt="CEO">
@@ -310,7 +310,7 @@
         </div>
     </div>
 </section>
-<section>
+<section class="mb-5">
     <div class="container">
         <div class="row align-items-center justify-content-between">
             <div class="col-12 col-md-7">
@@ -371,7 +371,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-5">
                 <form action="#" method="post" id="contactform" class="php-email-form">
                     <h4 class="text-white">Quick Contact</h4>
                     <p class="text-white">Feel free to contact us!</p>
