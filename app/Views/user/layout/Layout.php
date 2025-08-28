@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title><?= $this->renderSection('pageTitle'); ?></title>
+    <title>MINDTRILOGY || <?= $this->renderSection('pageTitle'); ?></title>
     <meta name="description" content="">
     <meta name="keywords" content="">
 
@@ -30,7 +30,7 @@
 
     <!-- Main CSS File -->
     <link href="<?= base_url('assets/css/main.css'); ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/custom.css') . '?v1.3.2'; ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/custom.css') . '?v1.4.2'; ?>" rel="stylesheet">
     <?= $this->renderSection('custompagecss'); ?>
 
 </head>
@@ -88,21 +88,22 @@
 
                         <!-- Megamenu 2 -->
                         <li class="megamenu-2">
-                            <a href="#services">
+                            <a href="<?= base_url('services'); ?>">
                                 <span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i>
                             </a>
 
                             <!-- Mobile Megamenu -->
                             <ul class="mobile-megamenu">
 
-                                <li class="dropdown"><a href="#">
+                                <li class="dropdown">
+                                    <a href="<?= base_url('services/IT_Consulting') ?>">
                                         <span>IT Consulting</span>
                                         <i class="bi bi-chevron-down toggle-dropdown"></i>
                                     </a>
                                     <ul>
-                                        <li><a href="#">IT Strategy</a></li>
-                                        <li><a href="#">Digital Transformation</a></li>
-                                        <li><a href="#">Tech Assessments</a></li>
+                                        <li><a href="<?= base_url('services/IT_Consulting/IT_Strategy'); ?>">IT Strategy</a></li>
+                                        <li><a href="<?= base_url('services/IT_Consulting/Digital_Transformation') ?>">Digital Transformation</a></li>
+                                        <li><a href="<?= base_url('services/IT_Consulting/Tech_Assessments') ?>">Tech Assessments</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown"><a href="#">
@@ -210,21 +211,21 @@
                                         <div class="content-grid">
                                             <div class="product-section">
                                                 <div class="product-list">
-                                                    <a href="#" class="product-link">
+                                                    <a href="<?= base_url('services/IT_Consulting/IT_Strategy') ?>" class="product-link">
                                                         <i class="bi-diagram-3"></i>
                                                         <div>
                                                             <span>IT Strategy</span>
                                                             <small>Align tech with business goals</small>
                                                         </div>
                                                     </a>
-                                                    <a href="#" class="product-link">
+                                                    <a href="<?= base_url('services/IT_Consulting/Digital_Transformation') ?>" class="product-link">
                                                         <i class="bi-lightning-charge"></i>
                                                         <div>
                                                             <span>Digital Transformation</span>
                                                             <small>Modernize systems and workflows</small>
                                                         </div>
                                                     </a>
-                                                    <a href="#" class="product-link">
+                                                    <a href="<?= base_url('services/IT_Consulting/Tech_Assessments') ?>" class="product-link">
                                                         <i class="bi-bar-chart-line"></i>
                                                         <div>
                                                             <span>Tech Assessments</span>
@@ -323,7 +324,7 @@
 
                                         <div class="featured-banner">
                                             <div class="banner-content">
-                                                <img src="assets/img/misc/misc-5.webp" alt="Creative Suite" class="banner-image">
+                                                <img src="<?= base_url('assets/img/misc/misc-5.webp') ?>" alt="Creative Suite" class="banner-image">
                                                 <div class="banner-info">
                                                     <h5>Creative Pro</h5>
                                                     <p>Everything you need for creative projects, from concept to final production.</p>
@@ -460,7 +461,7 @@
                             </ul>
                         </li>
 
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="<?= base_url('contact'); ?>">Contact</a></li>
 
                     </ul>
                     <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -503,7 +504,7 @@
                         <h4>Company</h4>
                         <ul>
                             <li><a href="<?= base_url('about_us') ?>">About Us</a></li>
-                            <li><a href="#">Services</a></li>
+                            <li><a href="<?= base_url('services'); ?>">Services</a></li>
                             <li><a href="#">Industries</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
@@ -537,7 +538,7 @@
                         </ul>
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-6 footer-contact text-center text-md-start ">
+                    <div class="col-lg-2 col-md-4 col-6 footer-contact">
                         <h4>Contact Us</h4>
                         <p>AJC Bose road</p>
                         <p>Kolkata,100005</p>

@@ -232,7 +232,7 @@
                 <img src="<?= base_url('assets/img/sections/testimonial-thumb-01.png') ?>" class="" alt="">
             </div>
             <div class="col-12 col-md-7">
-                <h1 class="about-slider-text fst-italic">What our clients and partners reviews</h1>
+                <h1 class="about-slider-text fst-italic">What our clients and partners say about us</h1>
                 <div class="swiper init-swiper">
                     <script type="application/json" class="swiper-config">
                         {

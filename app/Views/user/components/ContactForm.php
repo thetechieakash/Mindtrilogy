@@ -3,7 +3,7 @@
         <div class="row justify-content-center">
             <div class="col-12 d-md-flex justify-content-between align-items-center gap-5 mb-4">
                 <h1 class="cs-header">Let's talk about a project, collaboration or an idea you may have</h1>
-                <a href="#" class="cr">
+                <a href="<?= base_url('contact'); ?>" class="cr">
                     <svg viewBox='0 0 200 200' width='200' height='200' xmlns='http://www.w3.org/2000/svg' class="cr__svg" aria-labelledby="cr1-title cr1-desc">
                         <title id="cr1-title">Come quick and click this</title>
                         <desc id="cr1-desc">A rotating cr with text placed around a circle with an arrow inside</desc>
