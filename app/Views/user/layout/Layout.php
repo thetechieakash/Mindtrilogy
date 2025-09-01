@@ -30,7 +30,7 @@
 
     <!-- Main CSS File -->
     <link href="<?= base_url('assets/css/main.css'); ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/custom.css') . '?v1.4.2'; ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/custom.css') . '?v1.5.2'; ?>" rel="stylesheet">
     <?= $this->renderSection('custompagecss'); ?>
 
 </head>
@@ -78,11 +78,11 @@
                                 <span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i>
                             </a>
                             <ul>
-                                <li><a href="<?= base_url('about_us') ?>">Who We Are</a></li>
-                                <li><a href="<?= base_url('team') ?>">Leadership Team</a></li>
-                                <li><a href="<?= base_url('approach') ?>">Our Approach</a></li>
-                                <li><a href="#">Careers</a></li>
-                                <li><a href="#">Life at Mindtrilogy</a></li>
+                                <li><a href="<?= base_url('about_us') ?>" class="<?= $url == 'about_us' ? 'active' : ''; ?>">Who We Are</a></li>
+                                <li><a href="<?= base_url('team') ?>" class="<?= $url == 'team' ? 'active' : ''; ?>">Leadership Team</a></li>
+                                <li><a href="<?= base_url('approach') ?>" class="<?= $url == 'approach' ? 'active' : ''; ?>">Our Approach</a></li>
+                                <li><a href="<?= base_url('careers') ?>" class="<?= $url == 'careers' ? 'active' : ''; ?>">Careers</a></li>
+                                <li><a href="<?= base_url('life_at_mindtrilogy') ?>" class="<?= $url == 'life_at_mindtrilogy' ? 'active' : ''; ?>"> Life at Mindtrilogy</a></li>
                             </ul>
                         </li>
 

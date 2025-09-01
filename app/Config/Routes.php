@@ -19,8 +19,10 @@ $routes->group('services', static function ($routes) {
         $routes->get('Tech_Assessments', 'InfoTech\Techasmnt::index');
     });
 });
+$routes->get('careers', 'Careers::index');
+$routes->get('life_at_mindtrilogy', 'Life::index');
 $routes->set404Override(function () {
     return view('Error_404');
 });
 // $routes->get('/service', 'Service::index');
-$routes->get('/details', 'Details::index');
+// $routes->get('/details', 'Details::index');

@@ -3,7 +3,7 @@
 
 <!-- Page title  -->
 <?= $this->section('pageTitle'); ?>
-<?= esc($pageTitle) ?? 'Team'; ?>
+<?= esc($pageTitle) ?? 'Our Approach'; ?>
 <?= $this->endSection() ?>
 
 <!-- Css library  -->

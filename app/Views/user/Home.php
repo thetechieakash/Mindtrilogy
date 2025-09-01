@@ -40,7 +40,7 @@
                     </div>
                     <div class="hero-stats">
                         <div class="stat-item">
-                            <span class="stat-number">500+</span>
+                            <span class="stat-number">100+</span>
                             <span class="stat-label">Projects Completed</span>
                         </div>
                         <div class="stat-item">
@@ -112,7 +112,7 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="stat-item">
-                                    <div class="number">450+</div>
+                                    <div class="number">100+</div>
                                     <div class="label">Projects Completed</div>
                                 </div>
                             </div>
@@ -740,7 +740,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="stat-item">
-                        <div class="stat-number">500+</div>
+                        <div class="stat-number">100+</div>
                         <div class="stat-label">Projects Completed</div>
                     </div>
                 </div>

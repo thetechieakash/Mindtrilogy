@@ -3,7 +3,7 @@
 
 <!-- Page title  -->
 <?= $this->section('pageTitle'); ?>
-<?= esc($pageTitle) ?? 'Team'; ?>
+<?= esc($pageTitle) ?? 'Services'; ?>
 <?= $this->endSection() ?>
 
 <!-- Css library  -->
@@ -330,7 +330,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="stat-item">
-                        <div class="stat-number">500+</div>
+                        <div class="stat-number">100+</div>
                         <div class="stat-label">Projects Completed</div>
                     </div>
                 </div>

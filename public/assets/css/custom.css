@@ -5,6 +5,10 @@ section {
     padding-bottom: 30px !important;
 }
 
+.navmenu .dropdown ul .active {
+    color: var(--accent-color);
+}
+
 .hero .hero-background video {
     width: 100%;
     height: 100%;
@@ -1086,6 +1090,210 @@ section {
     bottom: -60px;
 }
 
+.formheader {
+    font-weight: 600;
+}
+
+.cstm.btn-outline {
+    /* background-color: var(--accent-color); */
+    border: 2px solid var(--accent-color);
+    color: var(--accent-color);
+    border-radius: 20px;
+}
+
+.cstm.btn-outline:hover {
+    background-color: var(--accent-color);
+    border: 2px solid var(--accent-color);
+    color: #fff;
+    border-radius: 20px;
+}
+
+#getcareers {
+
+    input,
+    select {
+        border-color: #011522;
+    }
+
+    option {
+        border: 1px solid var(--accent-color);
+    }
+
+    input:focus,
+    select:focus {
+        box-shadow: none;
+        border: 1px solid var(--accent-color);
+    }
+
+}
+
+.job-card {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+
+    .job-title {
+        font-size: 24px;
+        font-weight: 700;
+        color: var(--accent-color);
+    }
+
+    .job-add {
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+    .job-info {
+        font-weight: 400;
+        font-size: 16px;
+        padding: 0;
+        margin: 0;
+    }
+
+}
+
+.apply-job form {
+
+    input,
+    select {
+        border-color: #011522;
+    }
+
+    option {
+        border: 1px solid var(--accent-color);
+    }
+
+    input:focus,
+    select:focus {
+        box-shadow: none;
+        border: 1px solid var(--accent-color);
+    }
+
+    .form-submit button {
+        background-color: var(--accent-color);
+        color: var(--contrast-color);
+        font-weight: 600;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        border-width: initial;
+        border-style: none;
+        border-color: initial;
+        border-image: initial;
+        padding: 12px 28px;
+        border-radius: 50px;
+        transition: 0.3s;
+        margin: 10px 0;
+    }
+}
+
+input[type="file"]::file-selector-button {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 8px 16px;
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 9px 5px 9px 0;
+}
+
+.culture-highlights{
+    i{
+        color: var(--accent-color);
+    }
+}
+.life-card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    line-height: 1.6;
+    transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.life-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 36px;
+    border-radius: 22px;
+    color: #ffffff;
+    overflow: hidden;
+    background: var(--accent-color);
+    transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.life-content::before {
+    position: absolute;
+    content: "";
+    top: -4%;
+    left: 50%;
+    width: 90%;
+    height: 90%;
+    transform: translate(-50%);
+    background: #ced8ff;
+    z-index: -1;
+    transform-origin: bottom;
+
+    border-radius: inherit;
+    transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.life-.content::after {
+    position: absolute;
+    content: "";
+    top: -8%;
+    left: 50%;
+    width: 80%;
+    height: 80%;
+    transform: translate(-50%);
+    background: #e7ecff;
+    z-index: -2;
+    transform-origin: bottom;
+    border-radius: inherit;
+    transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.life-content i {
+    width: 48px;
+    height: 48px;
+    color: #fff;
+}
+
+.life-content .heading {
+    z-index: 1;
+    opacity: 1;
+    font-size: 24px;
+    color: #fff;
+    margin: auto;
+    transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.life-content .para {
+    z-index: 1;
+    opacity: 1;
+    font-size: 16px;
+    margin-top: 5px;
+    color: #dadada;
+    transition: all 0.48s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.life-card:hover {
+    transform: translate(0px, -16px);
+}
+
+.life-card:hover .life-content::before {
+    rotate: -8deg;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.life-card:hover .life-content::after {
+    rotate: 8deg;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
 @media only screen and (max-width: 991px) {
     .text-slide-item {
         gap: 0px 50px;
@@ -1125,6 +1333,13 @@ section {
                 font-size: 10px;
             }
         }
+    }
+
+    .icon-set {
+        position: absolute;
+        bottom: 40%;
+        right: 15%;
+        z-index: 999;
     }
 
     .team-highlight {

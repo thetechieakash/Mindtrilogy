@@ -11,7 +11,6 @@
 <?= $this->endSection(); ?>
 
 <?= $this->section('custompagecss'); ?>
-<link rel="stylesheet" href="<?= base_url('assets/css/pages/about.css' . '?v1.1.1'); ?>">
 <?= $this->endSection(); ?>
 
 <!-- Main content  -->
@@ -256,7 +255,6 @@
                         }
                     </script>
                     <div class="swiper-wrapper">
-
                         <div class="swiper-slide">
                             <div class="testimonial-item about-tes-item">
                                 <p>
@@ -358,7 +356,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="stat-item">
-                        <div class="stat-number counter" data-target="500" data-suffix="+">0</div>
+                        <div class="stat-number counter" data-target="100" data-suffix="+">0</div>
                         <div class="stat-label">Projects Completed</div>
                     </div>
                 </div>
