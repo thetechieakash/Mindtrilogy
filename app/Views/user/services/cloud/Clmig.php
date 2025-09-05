@@ -3,7 +3,7 @@
 
 <!-- Page title  -->
 <?= $this->section('pageTitle'); ?>
-<?= esc($pageTitle) ?? 'Service'; ?>
+<?= esc($pageTitle) ?? 'Cloud Migration'; ?>
 <?= $this->endSection() ?>
 
 <!-- Css library  -->
@@ -15,13 +15,13 @@
 <!-- Page Title -->
 <div class="page-title dark-background" style="background-image: url(<?= base_url('assets/img/bg/bg-14.webp') ?>);">
     <div class="container position-relative">
-        <h1>Digital Transformation</h1>
+        <h1>Cloud Migration</h1>
         <nav class="breadcrumbs">
             <ol>
                 <li><a href="<?= base_url(); ?>">Home</a></li>
                 <li><a href="<?= base_url('services'); ?>">Services</a></li>
-                <li><a href="<?= base_url('services/IT_Consulting'); ?>">IT Consulting</a></li>
-                <li class="current">Digital Transformation</li>
+                <li><a href="<?= base_url('services/Cloud_Devops'); ?>">Cloud &amp; Devops</a></li>
+                <li class="current">Cloud Migration</li>
             </ol>
         </nav>
     </div>
@@ -216,17 +216,17 @@
             <div class="col-xl-12">
                 <div class="services-details-thumb-wrapper">
                     <div class="services-details-thumb">
-                        <img src="<?= base_url('assets/img/services/sec/service3.webp') ?>" alt="image">
+                        <img src="<?= base_url('assets/img/services/sec/clmg1.webp') ?>" alt="image">
                     </div>
                     <div class="services-details-thumb">
-                        <img src="<?= base_url('assets/img/services/sec/service4.webp') ?>" alt="image">
+                        <img src="<?= base_url('assets/img/services/sec/clmg2.webp') ?>" alt="image">
                     </div>
                 </div>
                 <div class="services-details-wrapper">
                     <div class="services-details-left">
                         <div class="services-details-content">
-                            <h3 class="services-details-title rs-split-text-enable split-in-left">Driving Growth Through Digital Transformation</h3>
-                            <p class="services-details-description">Digital transformation empowers businesses to innovate, streamline operations, and adapt faster in a changing market. Our tailored strategies help organizations embrace modern technologies, optimize workflows, and unlock new opportunities for sustainable growth while delivering exceptional customer experiences.</p>
+                            <h3 class="services-details-title rs-split-text-enable split-in-left">Services Details</h3>
+                            <p class="services-details-description">Cloud migration enables businesses to move applications, workloads, and data to secure, scalable cloud platforms. It reduces infrastructure costs, improves performance, and ensures agility for future growth while minimizing downtime during the transition.</p>
                         </div>
                     </div>
                     <div class="services-details-right">
@@ -235,19 +235,19 @@
                                 <ul>
                                     <li>
                                         <i class="bi bi-check-circle"></i>
-                                        Faster tasks, reduced manual effort.
+                                        Minimal disruption to operations.
                                     </li>
                                     <li>
                                         <i class="bi bi-check-circle"></i>
-                                        Secure, scalable, and flexible solutions.
+                                        Industry-standard compliance and protection.
                                     </li>
                                     <li>
                                         <i class="bi bi-check-circle"></i>
-                                        Smarter decisions powered by analytics.
+                                        Pay only for what you use.
                                     </li>
                                     <li>
                                         <i class="bi bi-check-circle"></i>
-                                        Personalized experiences for lasting loyalty.
+                                        Scale resources instantly with demand.
                                     </li>
                                 </ul>
                             </div>
@@ -262,18 +262,18 @@
 <section id="how-we-work" class="how-we-work section">
     <div class="container section-title">
         <h2>Our Simple Process</h2>
-        <p>We follow a clear, step-by-step approach that ensures smooth execution, from discovery to delivery, helping your business achieve sustainable growth.</p>
+        <p>We follow a proven step-by-step migration process designed to minimize risk, optimize performance, and ensure long-term success in the cloud.</p>
     </div>
     <div class="container">
 
         <div class="steps-grid">
             <div class="step-card">
                 <div class="step-icon">
-                    <i class="bi bi-search"></i>
+                    <i class="fas fa-search"></i>
                 </div>
                 <div class="step-number">Step 1</div>
-                <h3>Assess Needs</h3>
-                <p>We begin by understanding your business challenges and goals to design a roadmap that aligns with long-term objectives.</p>
+                <h3>Assessment</h3>
+                <p>We evaluate your existing infrastructure and define migration goals, risks, and requirements for a smooth transition.</p>
                 <div class="step-arrow">
                     <i class="bi bi-arrow-right"></i>
                 </div>
@@ -281,11 +281,11 @@
 
             <div class="step-card">
                 <div class="step-icon">
-                    <i class="bi bi-lightbulb"></i>
+                    <i class="fas fa-project-diagram"></i>
                 </div>
                 <div class="step-number">Step 2</div>
-                <h3>Plan Strategy</h3>
-                <p>Our experts create a tailored digital plan focusing on efficiency, innovation, and scalability for sustainable business growth.</p>
+                <h3>Planning</h3>
+                <p>We create a tailored migration roadmap, choosing the right cloud providers and tools for your business.</p>
                 <div class="step-arrow">
                     <i class="bi bi-arrow-right"></i>
                 </div>
@@ -293,11 +293,11 @@
 
             <div class="step-card">
                 <div class="step-icon">
-                    <i class="bi bi-gear"></i>
+                    <i class="fas fa-cloud-upload-alt"></i>
                 </div>
                 <div class="step-number">Step 3</div>
-                <h3>Implement Solutions</h3>
-                <p>We deploy modern technologies, tools, and platforms to transform processes while ensuring seamless integration and minimal disruption.</p>
+                <h3>Migration</h3>
+                <p>We move applications, databases, and workloads to the cloud securely, ensuring minimal downtime.</p>
                 <div class="step-arrow">
                     <i class="bi bi-arrow-right"></i>
                 </div>
@@ -305,11 +305,11 @@
 
             <div class="step-card">
                 <div class="step-icon">
-                    <i class="bi bi-rocket-takeoff"></i>
+                    <i class="fas fa-chart-line"></i>
                 </div>
                 <div class="step-number">Step 4</div>
-                <h3>Optimize Growth</h3>
-                <p>Continuous monitoring, feedback, and enhancements ensure your business stays competitive, adaptive, and ready for future digital demands.</p>
+                <h3>Optimization</h3>
+                <p>Post-migration, we monitor and fine-tune systems for performance, security, and cost-efficiency.</p>
             </div>
         </div>
 
@@ -335,7 +335,7 @@
             </div>
             <div class="col-xl-7 col-lg-7">
                 <div class="about-content-wrapper mt-lg-5">
-                    <p class="about-description">We know digital transformation can feel complex. To guide you, we’ve answered the most common questions businesses ask when starting their transformation journey.</p>
+                    <p class="about-description">We know moving to the cloud raises many questions. Here are answers to some of the most common ones from our clients.</p>
                     <div class="about-content-bottom">
                         <div class="rs-accordion-three">
                             <div class="accordion-wrapper">
@@ -343,7 +343,7 @@
                                     <div class="accordion-item">
                                         <div class="accordion-header" id="headingOne">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                <span class="accordion-title">What services do you offer?</span>
+                                                <span class="accordion-title">How long does migration take?</span>
                                                 <span class="accordion-icon">
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
                                                         <path
@@ -355,14 +355,14 @@
                                         </div>
                                         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExampleOne">
                                             <div class="accordion-body">
-                                                We provide end-to-end digital transformation services, including cloud adoption, automation, data analytics, enterprise mobility, and customer experience optimization tailored to your business needs.
+                                                Depending on complexity, cloud migration typically takes 2–6 weeks. Larger enterprises may require phased migration.
                                             </div>
                                         </div>
                                     </div>
                                     <div class="accordion-item">
                                         <div class="accordion-header" id="headingTwo">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                <span class="accordion-title">Can you provide previous work?</span>
+                                                <span class="accordion-title">Will there be downtime?</span>
                                                 <span class="accordion-icon">
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
                                                         <path
@@ -373,13 +373,13 @@
                                             </button>
                                         </div>
                                         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#headingTwo">
-                                            <div class="accordion-body">Yes, we have successfully delivered projects across industries like healthcare, finance, eCommerce, and education. We can share case studies and success stories relevant to your business goals.</div>
+                                            <div class="accordion-body">Our team minimizes downtime by scheduling migrations during low-traffic periods and ensuring fallback systems are in place.</div>
                                         </div>
                                     </div>
                                     <div class="accordion-item">
                                         <div class="accordion-header" id="headingThree">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                <span class="accordion-title">What is the right strategy for a client?</span>
+                                                <span class="accordion-title">Is data security guaranteed?</span>
                                                 <span class="accordion-icon">
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
                                                         <path
@@ -390,7 +390,7 @@
                                             </button>
                                         </div>
                                         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#headingThree">
-                                            <div class="accordion-body">Every client is unique. We design strategies based on your current challenges, future vision, and industry trends to ensure measurable results and sustainable growth.</div>
+                                            <div class="accordion-body">Yes. We follow industry best practices, encryption standards, and compliance guidelines to ensure complete data safety..</div>
                                         </div>
                                     </div>
                                 </div>

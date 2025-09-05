@@ -1438,7 +1438,7 @@
     <div class="container">
         <div class="contact-main-wrapper">
             <div class="map-wrapper">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3123.6137305387574!2d88.3486188!3d22.541652899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0276561af736df%3A0x32589994002c17db!2sAcharya%20Jagdish%20Chandra%20Bose%20Rd%2C%20Kolkata%2C%20West%20Bengal!5e1!3m2!1sen!2sin!4v1755000102201!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.0003983200418!2d88.34604387443245!3d22.541657834105486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0276561af736df%3A0x32589994002c17db!2sAcharya%20Jagdish%20Chandra%20Bose%20Rd%2C%20Kolkata%2C%20West%20Bengal%2C%20India!5e0!3m2!1sen!2sbd!4v1757072191872!5m2!1sen!2sbd" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div class="contact-content">

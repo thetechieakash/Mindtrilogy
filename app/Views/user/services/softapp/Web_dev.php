@@ -3,7 +3,7 @@
 
 <!-- Page title  -->
 <?= $this->section('pageTitle'); ?>
-<?= esc($pageTitle) ?? 'Service'; ?>
+<?= esc($pageTitle) ?? 'Web Development'; ?>
 <?= $this->endSection() ?>
 
 <!-- Css library  -->
@@ -15,13 +15,13 @@
 <!-- Page Title -->
 <div class="page-title dark-background" style="background-image: url(<?= base_url('assets/img/bg/bg-14.webp') ?>);">
     <div class="container position-relative">
-        <h1>Digital Transformation</h1>
+        <h1>Web Development</h1>
         <nav class="breadcrumbs">
             <ol>
                 <li><a href="<?= base_url(); ?>">Home</a></li>
                 <li><a href="<?= base_url('services'); ?>">Services</a></li>
-                <li><a href="<?= base_url('services/IT_Consulting'); ?>">IT Consulting</a></li>
-                <li class="current">Digital Transformation</li>
+                <li><a href="<?= base_url('services/Softwere_Apps'); ?>">Softwere &amp; Apps</a></li>
+                <li class="current">Web Development</li>
             </ol>
         </nav>
     </div>
@@ -216,17 +216,17 @@
             <div class="col-xl-12">
                 <div class="services-details-thumb-wrapper">
                     <div class="services-details-thumb">
-                        <img src="<?= base_url('assets/img/services/sec/service3.webp') ?>" alt="image">
+                        <img src="<?= base_url('assets/img/services/sec/webdev1.webp') ?>" alt="image">
                     </div>
                     <div class="services-details-thumb">
-                        <img src="<?= base_url('assets/img/services/sec/service4.webp') ?>" alt="image">
+                        <img src="<?= base_url('assets/img/services/sec/webdev2.webp') ?>" alt="image">
                     </div>
                 </div>
                 <div class="services-details-wrapper">
                     <div class="services-details-left">
                         <div class="services-details-content">
-                            <h3 class="services-details-title rs-split-text-enable split-in-left">Driving Growth Through Digital Transformation</h3>
-                            <p class="services-details-description">Digital transformation empowers businesses to innovate, streamline operations, and adapt faster in a changing market. Our tailored strategies help organizations embrace modern technologies, optimize workflows, and unlock new opportunities for sustainable growth while delivering exceptional customer experiences.</p>
+                            <h3 class="services-details-title rs-split-text-enable split-in-left">Services Details</h3>
+                            <p class="services-details-description">We provide responsive, scalable, and secure web development solutions tailored to your business. Our focus is on building fast, modern websites that deliver outstanding performance and engaging user experiences.</p>
                         </div>
                     </div>
                     <div class="services-details-right">
@@ -235,19 +235,19 @@
                                 <ul>
                                     <li>
                                         <i class="bi bi-check-circle"></i>
-                                        Faster tasks, reduced manual effort.
+                                        Works seamlessly across devices.
                                     </li>
                                     <li>
                                         <i class="bi bi-check-circle"></i>
-                                        Secure, scalable, and flexible solutions.
+                                        Optimized speed for smooth browsing.
                                     </li>
                                     <li>
                                         <i class="bi bi-check-circle"></i>
-                                        Smarter decisions powered by analytics.
+                                        Built with data protection in mind.
                                     </li>
                                     <li>
                                         <i class="bi bi-check-circle"></i>
-                                        Personalized experiences for lasting loyalty.
+                                        Grows alongside your business.
                                     </li>
                                 </ul>
                             </div>
@@ -262,18 +262,18 @@
 <section id="how-we-work" class="how-we-work section">
     <div class="container section-title">
         <h2>Our Simple Process</h2>
-        <p>We follow a clear, step-by-step approach that ensures smooth execution, from discovery to delivery, helping your business achieve sustainable growth.</p>
+        <p>We follow a streamlined, transparent, and collaborative approach to ensure your website is delivered on time with quality and precision.</p>
     </div>
     <div class="container">
 
         <div class="steps-grid">
             <div class="step-card">
                 <div class="step-icon">
-                    <i class="bi bi-search"></i>
+                    <i class="fas fa-lightbulb"></i>
                 </div>
                 <div class="step-number">Step 1</div>
-                <h3>Assess Needs</h3>
-                <p>We begin by understanding your business challenges and goals to design a roadmap that aligns with long-term objectives.</p>
+                <h3>Discovery</h3>
+                <p>Understanding your goals, target audience, and unique needs to create the right foundation.</p>
                 <div class="step-arrow">
                     <i class="bi bi-arrow-right"></i>
                 </div>
@@ -281,11 +281,11 @@
 
             <div class="step-card">
                 <div class="step-icon">
-                    <i class="bi bi-lightbulb"></i>
+                    <i class="fas fa-pencil-ruler"></i>
                 </div>
                 <div class="step-number">Step 2</div>
-                <h3>Plan Strategy</h3>
-                <p>Our experts create a tailored digital plan focusing on efficiency, innovation, and scalability for sustainable business growth.</p>
+                <h3>Design</h3>
+                <p>Creating engaging wireframes and intuitive UI for a smooth user experience.</p>
                 <div class="step-arrow">
                     <i class="bi bi-arrow-right"></i>
                 </div>
@@ -293,11 +293,11 @@
 
             <div class="step-card">
                 <div class="step-icon">
-                    <i class="bi bi-gear"></i>
+                    <i class="fas fa-code"></i>
                 </div>
                 <div class="step-number">Step 3</div>
-                <h3>Implement Solutions</h3>
-                <p>We deploy modern technologies, tools, and platforms to transform processes while ensuring seamless integration and minimal disruption.</p>
+                <h3>Development</h3>
+                <p>Writing clean, scalable, and secure code using modern frameworks.</p>
                 <div class="step-arrow">
                     <i class="bi bi-arrow-right"></i>
                 </div>
@@ -305,11 +305,11 @@
 
             <div class="step-card">
                 <div class="step-icon">
-                    <i class="bi bi-rocket-takeoff"></i>
+                    <i class="fas fa-rocket"></i>
                 </div>
                 <div class="step-number">Step 4</div>
-                <h3>Optimize Growth</h3>
-                <p>Continuous monitoring, feedback, and enhancements ensure your business stays competitive, adaptive, and ready for future digital demands.</p>
+                <h3>Launch</h3>
+                <p>Deploying your website with testing, optimization, and ongoing support.</p>
             </div>
         </div>
 
@@ -335,7 +335,7 @@
             </div>
             <div class="col-xl-7 col-lg-7">
                 <div class="about-content-wrapper mt-lg-5">
-                    <p class="about-description">We know digital transformation can feel complex. To guide you, we’ve answered the most common questions businesses ask when starting their transformation journey.</p>
+                    <p class="about-description">We know clients often have important questions before starting. Here are answers to some of the most common ones.</p>
                     <div class="about-content-bottom">
                         <div class="rs-accordion-three">
                             <div class="accordion-wrapper">
@@ -343,7 +343,7 @@
                                     <div class="accordion-item">
                                         <div class="accordion-header" id="headingOne">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                <span class="accordion-title">What services do you offer?</span>
+                                                <span class="accordion-title">What types of websites do you build?</span>
                                                 <span class="accordion-icon">
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
                                                         <path
@@ -355,14 +355,14 @@
                                         </div>
                                         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExampleOne">
                                             <div class="accordion-body">
-                                                We provide end-to-end digital transformation services, including cloud adoption, automation, data analytics, enterprise mobility, and customer experience optimization tailored to your business needs.
+                                                We build business websites, eCommerce platforms, portfolios, custom portals, and more—tailored to meet your business objectives.
                                             </div>
                                         </div>
                                     </div>
                                     <div class="accordion-item">
                                         <div class="accordion-header" id="headingTwo">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                <span class="accordion-title">Can you provide previous work?</span>
+                                                <span class="accordion-title">How long does it take to build a website?</span>
                                                 <span class="accordion-icon">
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
                                                         <path
@@ -373,13 +373,13 @@
                                             </button>
                                         </div>
                                         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#headingTwo">
-                                            <div class="accordion-body">Yes, we have successfully delivered projects across industries like healthcare, finance, eCommerce, and education. We can share case studies and success stories relevant to your business goals.</div>
+                                            <div class="accordion-body">On average, 1–3 months depending on complexity, features, and design requirements.</div>
                                         </div>
                                     </div>
                                     <div class="accordion-item">
                                         <div class="accordion-header" id="headingThree">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                <span class="accordion-title">What is the right strategy for a client?</span>
+                                                <span class="accordion-title">Do you provide maintenance after launch?</span>
                                                 <span class="accordion-icon">
                                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
                                                         <path
@@ -390,7 +390,7 @@
                                             </button>
                                         </div>
                                         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#headingThree">
-                                            <div class="accordion-body">Every client is unique. We design strategies based on your current challenges, future vision, and industry trends to ensure measurable results and sustainable growth.</div>
+                                            <div class="accordion-body">Yes, we offer continuous support, updates, and performance monitoring to ensure your site runs smoothly.</div>
                                         </div>
                                     </div>
                                 </div>

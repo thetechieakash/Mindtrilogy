@@ -214,7 +214,7 @@
 <section>
     <div class="container">
         <div class="row justify-content-center align-items-center mx-2 mx-md-0">
-            <a class="services-items-inner col-xl-4 col-lg-4 col-md-6" href="<?= base_url('services/IT_Consulting')?>">
+            <a class="services-items-inner col-xl-4 col-lg-4 col-md-6" href="<?= base_url('services/IT_Consulting') ?>">
                 <img src="<?= base_url('assets/img/services/svgs/5.svg'); ?>" alt="svg">
                 <div>
                     <p>IT Consulting</p>
@@ -231,7 +231,7 @@
                 </div>
             </a>
 
-            <a class="services-items-inner col-xl-4 col-lg-4 col-md-6" href="#">
+            <a class="services-items-inner col-xl-4 col-lg-4 col-md-6" href="<?= base_url('services/Softwere_Apps') ?>">
                 <img src="<?= base_url('assets/img/services/svgs/8.svg'); ?>" alt="svg">
                 <div>
                     <p>Software & Apps</p>
@@ -248,7 +248,7 @@
                 </div>
             </a>
 
-            <a class="services-items-inner col-xl-4 col-lg-4 col-md-6" href="#">
+            <a class="services-items-inner col-xl-4 col-lg-4 col-md-6" href="<?= base_url('services/Cloud_Devops') ?>">
                 <img src="<?= base_url('assets/img/services/svgs/19.svg'); ?>" alt="svg">
                 <div>
                     <p>Cloud & DevOps</p>

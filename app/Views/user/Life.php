@@ -15,7 +15,6 @@
 <div class="page-title dark-background" style="background-image: url(assets/img/bg/bg-14.webp);">
     <div class="container position-relative">
         <h1>Life at Mindtrilogy</h1>
-        <p>Where ideas thrive, teams grow, and innovation drives us forward.</p>
         <nav class="breadcrumbs">
             <ol>
                 <li><a href="<?= base_url(); ?>">Home</a></li>
@@ -26,12 +25,10 @@
 </div>
 <!-- Culture Highlights -->
 <section class="culture-highlights py-5">
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-xxl-9 col-xl-11 mb-5">
-                <div class="">
-                    <h2>Where ideas thrive, teams grow, and innovation drives us forward.</h2>
-                </div>
+    <div class="container">
+        <div class="row mb-5">
+            <div class="text-center">
+                <h2 >Where ideas thrive, teams grow, and innovation drives us forward.</h2>
             </div>
         </div>
         <div class="row g-4">

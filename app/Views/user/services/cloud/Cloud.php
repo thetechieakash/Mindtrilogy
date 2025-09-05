@@ -3,7 +3,7 @@
 
 <!-- Page title  -->
 <?= $this->section('pageTitle'); ?>
-<?= esc($pageTitle) ?? 'Service'; ?>
+<?= esc($pageTitle) ?? 'Cloud & Devops'; ?>
 <?= $this->endSection() ?>
 
 <!-- Css library  -->
@@ -13,14 +13,14 @@
 <!-- Main content  -->
 <?= $this->section('content'); ?>
 <!-- Page Title -->
-<div class="page-title dark-background" style="background-image: url(assets/img/bg/bg-14.webp);">
+<div class="page-title dark-background" style="background-image: url(<?= base_url('assets/img/bg/bg-14.webp') ?>);">
     <div class="container position-relative">
-        <h1>Service Details</h1>
-        <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
+        <h1>Cloud &amp; Devops</h1>
         <nav class="breadcrumbs">
             <ol>
-                <li><a href="index.html">Home</a></li>
-                <li class="current">Service Details</li>
+                <li><a href="<?= base_url(); ?>">Home</a></li>
+                <li><a href="<?= base_url('services'); ?>">Services</a></li>
+                <li class="current">Cloud &amp; Devops</li>
             </ol>
         </nav>
     </div>
@@ -35,7 +35,7 @@
 
             <div class="col-lg-8">
                 <div class="service-hero">
-                    <img src="https://bootstrapmade.com/content/demo/Passion/assets/img/services/services-7.webp" alt="" class="img-fluid">
+                    <img src="<?= base_url('assets/img/services/cloud-devops.webp') ?>" alt="" class="img-fluid">
                     <div class="service-badge">
                         <span>Premium Service</span>
                     </div>
@@ -43,8 +43,8 @@
 
                 <div class="service-content">
                     <div class="service-header">
-                        <h2>Digital Marketing Strategy &amp; Implementation</h2>
-                        <p class="service-intro">Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
+                        <h2>Empowering Growth with Cloud & DevOps</h2>
+                        <p class="service-intro">Cloud & DevOps services accelerate innovation by streamlining infrastructure, automating workflows, and ensuring scalability. We help businesses modernize operations, reduce downtime, and deliver faster, more reliable digital experiences.</p>
                     </div>
 
                     <div class="service-features">
@@ -53,44 +53,44 @@
                             <div class="col-md-6">
                                 <div class="feature-item">
                                     <div class="feature-icon">
-                                        <i class="bi bi-graph-up-arrow"></i>
+                                        <i class="fas fa-rocket"></i>
                                     </div>
                                     <div class="feature-content">
-                                        <h5>Analytics &amp; Reporting</h5>
-                                        <p>Comprehensive tracking and performance analysis</p>
+                                        <h5>Faster Delivery</h5>
+                                        <p>Speed up releases with automation.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="feature-item">
                                     <div class="feature-icon">
-                                        <i class="bi bi-people"></i>
+                                        <i class="fas fa-dollar-sign"></i>
                                     </div>
                                     <div class="feature-content">
-                                        <h5>Audience Targeting</h5>
-                                        <p>Precise demographic and behavioral targeting</p>
+                                        <h5>Cost Savings</h5>
+                                        <p>Optimize infrastructure expenses.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="feature-item">
                                     <div class="feature-icon">
-                                        <i class="bi bi-megaphone"></i>
+                                        <i class="fas fa-shield-alt"></i>
                                     </div>
                                     <div class="feature-content">
-                                        <h5>Multi-Channel Campaigns</h5>
-                                        <p>Integrated social media and search marketing</p>
+                                        <h5>High Security</h5>
+                                        <p>Protect systems with best practices.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="feature-item">
                                     <div class="feature-icon">
-                                        <i class="bi bi-gear"></i>
+                                        <i class="fas fa-server"></i>
                                     </div>
                                     <div class="feature-content">
-                                        <h5>Strategy Optimization</h5>
-                                        <p>Continuous refinement for maximum ROI</p>
+                                        <h5>Scalable Systems</h5>
+                                        <p>Grow seamlessly with demand.</p>
                                     </div>
                                 </div>
                             </div>
@@ -103,29 +103,29 @@
                             <div class="process-step">
                                 <div class="step-number">01</div>
                                 <div class="step-content">
-                                    <h5>Discovery &amp; Analysis</h5>
-                                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                                    <h5>Assessment</h5>
+                                    <p>We evaluate your current infrastructure and identify gaps for cloud adoption or DevOps transformation.</p>
                                 </div>
                             </div>
                             <div class="process-step">
                                 <div class="step-number">02</div>
                                 <div class="step-content">
-                                    <h5>Strategy Development</h5>
-                                    <p>Donec rutrum congue leo eget malesuada. Cras ultricies ligula sed magna dictum porta. Vestibulum ante ipsum primis in faucibus.</p>
+                                    <h5>Planning</h5>
+                                    <p>Define roadmap, choose cloud providers, and design CI/CD or IaC solutions tailored to your business.</p>
                                 </div>
                             </div>
                             <div class="process-step">
                                 <div class="step-number">03</div>
                                 <div class="step-content">
                                     <h5>Implementation</h5>
-                                    <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit eget tincidunt nibh pulvinar.</p>
+                                    <p>Deploy and configure cloud platforms, pipelines, and automation tools with minimal downtime.</p>
                                 </div>
                             </div>
                             <div class="process-step">
                                 <div class="step-number">04</div>
                                 <div class="step-content">
-                                    <h5>Monitoring &amp; Optimization</h5>
-                                    <p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Proin eget tortor risus donec sollicitudin molestie.</p>
+                                    <h5>Optimization</h5>
+                                    <p>Monitor, fine-tune, and scale to improve performance, cost, and security continuously.</p>
                                 </div>
                             </div>
                         </div>
@@ -154,25 +154,18 @@
                     <div class="service-menu">
                         <h4>Our Services</h4>
                         <div class="menu-list">
-                            <a href="#" class="menu-item active">
+                            <!-- active -->
+                            <a href="<?= base_url('services/Cloud_Devops/Cloud_Migration') ?>" class="menu-item ">
                                 <i class="bi bi-arrow-right"></i>
-                                <span>Digital Marketing</span>
+                                <span>Cloud Migration</span>
                             </a>
-                            <a href="#" class="menu-item">
+                            <a href="<?= base_url('services/Cloud_Devops/CI_CD_Pipeline') ?>" class="menu-item">
                                 <i class="bi bi-arrow-right"></i>
-                                <span>Web Development</span>
+                                <span>CI/CD Pipeline</span>
                             </a>
-                            <a href="#" class="menu-item">
+                            <a href="<?= base_url('services/Cloud_Devops/Infrastructure_as_Code') ?>" class="menu-item">
                                 <i class="bi bi-arrow-right"></i>
-                                <span>Brand Strategy</span>
-                            </a>
-                            <a href="#" class="menu-item">
-                                <i class="bi bi-arrow-right"></i>
-                                <span>Content Creation</span>
-                            </a>
-                            <a href="#" class="menu-item">
-                                <i class="bi bi-arrow-right"></i>
-                                <span>SEO Optimization</span>
+                                <span>Infrastructure as Code</span>
                             </a>
                         </div>
                     </div>
@@ -182,11 +175,11 @@
                         <div class="info-list">
                             <div class="info-item">
                                 <span class="info-label">Duration:</span>
-                                <span class="info-value">3-6 months</span>
+                                <span class="info-value">2-6 months</span>
                             </div>
                             <div class="info-item">
                                 <span class="info-label">Team Size:</span>
-                                <span class="info-value">4-6 specialists</span>
+                                <span class="info-value">3-6 specialists</span>
                             </div>
                             <div class="info-item">
                                 <span class="info-label">Delivery:</span>
@@ -199,23 +192,7 @@
                         </div>
                     </div>
 
-                    <div class="contact-card">
-                        <div class="contact-content">
-                            <h4>Need Help?</h4>
-                            <p>Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
-                            <div class="contact-info">
-                                <div class="contact-item">
-                                    <i class="bi bi-telephone"></i>
-                                    <span><a class="text-white" href="tel:+911234567890">+91 123 456 7890</a></span>
-                                </div>
-                                <div class="contact-item">
-                                    <i class="bi bi-envelope"></i>
-                                    <span><a class="text-white" href="mailto:example@gmail.com">example@gmail.com</a></span>
-                                </div>
-                            </div>
-                            <a href="#" class="btn btn-primary">Get Quote</a>
-                        </div>
-                    </div>
+                    <?= $this->include('user/components/Helpbox'); ?>
 
                 </div>
             </div>

@@ -25,12 +25,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="<?= base_url('vendor/glightbox/glightbox.min.css'); ?>" rel="stylesheet">
     <link href="<?= base_url('vendor/swiper/swiper-bundle.min.css'); ?>" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <?= $this->renderSection('csslib'); ?>
 
     <!-- Main CSS File -->
     <link href="<?= base_url('assets/css/main.css'); ?>" rel="stylesheet">
-    <link href="<?= base_url('assets/css/custom.css') . '?v1.5.2'; ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/custom.css') . '?v1.6.2'; ?>" rel="stylesheet">
     <?= $this->renderSection('custompagecss'); ?>
 
 </head>
@@ -106,24 +105,26 @@
                                         <li><a href="<?= base_url('services/IT_Consulting/Tech_Assessments') ?>">Tech Assessments</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a href="#">
+                                <li class="dropdown">
+                                    <a href="<?= base_url('services/Softwere_Apps') ?>">
                                         <span>Software & Apps</span>
                                         <i class="bi bi-chevron-down toggle-dropdown"></i>
                                     </a>
                                     <ul>
-                                        <li><a href="#">Web Development</a></li>
-                                        <li><a href="#">Mobile Apps</a></li>
-                                        <li><a href="#">Custom Solutions</a></li>
+                                        <li><a href="<?= base_url('services/Softwere_Apps/Web_Development') ?>">Web Development</a></li>
+                                        <li><a href="<?= base_url('services/Softwere_Apps/Mobile_Apps') ?>">Mobile Apps</a></li>
+                                        <li><a href="<?= base_url('services/Softwere_Apps/Custom_Solutions') ?>">Custom Solutions</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a href="#">
+                                <li class="dropdown">
+                                    <a href="<?= base_url('services/Cloud_Devops') ?>">
                                         <span>Cloud & DevOps</span>
                                         <i class="bi bi-chevron-down toggle-dropdown"></i>
                                     </a>
                                     <ul>
-                                        <li><a href="#">Cloud Migration</a></li>
-                                        <li><a href="#">CI/CD Pipeline</a></li>
-                                        <li><a href="#">Infrastructure as Code</a></li>
+                                        <li><a href="<?= base_url('services/Cloud_Devops/Cloud_Migration') ?>">Cloud Migration</a></li>
+                                        <li><a href="<?= base_url('services/Cloud_Devops/CI_CD_Pipeline') ?>">CI/CD Pipeline</a></li>
+                                        <li><a href="<?= base_url('services/Cloud_Devops/Infrastructure_as_Code') ?>">Infrastructure as Code</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown"><a href="#">
@@ -254,21 +255,21 @@
                                             <div class="product-section">
                                                 <!-- <h4>Code &amp; Build</h4> -->
                                                 <div class="product-list">
-                                                    <a href="#" class="product-link">
+                                                    <a href="<?= base_url('services/Softwere_Apps/Web_Development') ?>" class="product-link">
                                                         <i class="bi-window-sidebar"></i>
                                                         <div>
                                                             <span>Web Development</span>
                                                             <small>Build responsive web platforms</small>
                                                         </div>
                                                     </a>
-                                                    <a href="#" class="product-link">
+                                                    <a href="<?= base_url('services/Softwere_Apps/Mobile_Apps') ?>" class="product-link">
                                                         <i class="bi-phone"></i>
                                                         <div>
                                                             <span>Mobile Apps</span>
                                                             <small>Native & cross-platform mobile apps</small>
                                                         </div>
                                                     </a>
-                                                    <a href="#" class="product-link">
+                                                    <a href="<?= base_url('services/Softwere_Apps/Custom_Solutions') ?>" class="product-link">
                                                         <i class="bi-puzzle"></i>
                                                         <div>
                                                             <span>Custom Solutions</span>
@@ -296,21 +297,21 @@
                                         <div class="content-grid">
                                             <div class="product-section">
                                                 <div class="product-list">
-                                                    <a href="#" class="product-link">
+                                                    <a href="<?= base_url('services/Cloud_Devops/Cloud_Migration') ?>" class="product-link">
                                                         <i class="bi-cloud-upload"></i>
                                                         <div>
                                                             <span>Cloud Migration</span>
                                                             <small>Move systems to the cloud</small>
                                                         </div>
                                                     </a>
-                                                    <a href="#" class="product-link">
+                                                    <a href="<?= base_url('services/Cloud_Devops/CI_CD_Pipeline') ?>" class="product-link">
                                                         <i class="bi-arrow-repeat"></i>
                                                         <div>
                                                             <span>CI/CD Pipeline</span>
                                                             <small>Automate code deployment workflows</small>
                                                         </div>
                                                     </a>
-                                                    <a href="#" class="product-link">
+                                                    <a href="<?= base_url('services/Cloud_Devops/Infrastructure_as_Code') ?>" class="product-link">
                                                         <i class="bi-terminal"></i>
                                                         <div>
                                                             <span>Infrastructure as Code</span>
@@ -461,7 +462,7 @@
                             </ul>
                         </li>
 
-                        <li><a href="<?= base_url('contact'); ?>">Contact</a></li>
+                        <li><a href="<?= base_url('Contact'); ?>">Contact</a></li>
 
                     </ul>
                     <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -506,7 +507,7 @@
                             <li><a href="<?= base_url('about_us') ?>">About Us</a></li>
                             <li><a href="<?= base_url('services'); ?>">Services</a></li>
                             <li><a href="#">Industries</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="Contact">Contact</a></li>
                         </ul>
                     </div>
 

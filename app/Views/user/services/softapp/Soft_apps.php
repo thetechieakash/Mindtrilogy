@@ -3,7 +3,7 @@
 
 <!-- Page title  -->
 <?= $this->section('pageTitle'); ?>
-<?= esc($pageTitle) ?? 'Service'; ?>
+<?= esc($pageTitle) ?? 'Softwere & Apps'; ?>
 <?= $this->endSection() ?>
 
 <!-- Css library  -->
@@ -15,12 +15,12 @@
 <!-- Page Title -->
 <div class="page-title dark-background" style="background-image: url(<?= base_url('assets/img/bg/bg-14.webp') ?>);">
     <div class="container position-relative">
-        <h1>IT Consulting</h1>
+        <h1>Softwere &amp; Apps</h1>
         <nav class="breadcrumbs">
             <ol>
                 <li><a href="<?= base_url(); ?>">Home</a></li>
                 <li><a href="<?= base_url('services'); ?>">Services</a></li>
-                <li class="current">IT Consulting</li>
+                <li class="current">Softwere &amp; Apps</li>
             </ol>
         </nav>
     </div>
@@ -35,7 +35,7 @@
 
             <div class="col-lg-8">
                 <div class="service-hero">
-                    <img src="https://bootstrapmade.com/content/demo/Passion/assets/img/services/services-7.webp" alt="" class="img-fluid">
+                    <img src="<?= base_url('assets/img/services/softapps.webp') ?>" alt="" class="img-fluid">
                     <div class="service-badge">
                         <span>Premium Service</span>
                     </div>
@@ -43,8 +43,8 @@
 
                 <div class="service-content">
                     <div class="service-header">
-                        <h2>Empowering Businesses Through Smart IT</h2>
-                        <p class="service-intro">Our IT consulting services help businesses align technology with their goals. We provide expert advice, tailored strategies, and reliable solutions that boost performance, reduce risks, and unlock growth. With innovation at the core, we transform challenges into opportunities.</p>
+                        <h2>Building Smart, Scalable Applications</h2>
+                        <p class="service-intro">We deliver custom-built web and mobile applications designed to enhance performance, scalability, and user experience. Our solutions combine innovation, agility, and security to support business growth.</p>
                     </div>
 
                     <div class="service-features">
@@ -53,22 +53,22 @@
                             <div class="col-md-6">
                                 <div class="feature-item">
                                     <div class="feature-icon">
-                                        <i class="fas fa-lightbulb"></i>
+                                        <i class="fas fa-laptop-code"></i>
                                     </div>
                                     <div class="feature-content">
-                                        <h5>Expert Guidance</h5>
-                                        <p>Gain insights for smarter growth.</p>
+                                        <h5>Modern Web Apps</h5>
+                                        <p>Fast, responsive, and secure web applications tailored to your business needs.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="feature-item">
                                     <div class="feature-icon">
-                                        <i class="fas fa-shield-alt"></i>
+                                        <i class="fas fa-mobile-alt"></i>
                                     </div>
                                     <div class="feature-content">
-                                        <h5>Secure Solutions</h5>
-                                        <p>Protect data with advanced security.</p>
+                                        <h5>Mobile First</h5>
+                                        <p>Seamless iOS and Android apps that engage users anywhere.</p>
                                     </div>
                                 </div>
                             </div>
@@ -78,19 +78,19 @@
                                         <i class="fas fa-cogs"></i>
                                     </div>
                                     <div class="feature-content">
-                                        <h5>Scalable Systems</h5>
-                                        <p>Build technology that grows seamlessly.</p>
+                                        <h5>Custom Solutions</h5>
+                                        <p>Tailored software built to match unique workflows and industry requirements.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="feature-item">
                                     <div class="feature-icon">
-                                        <i class="fas fa-users"></i>
+                                        <i class="fas fa-cloud"></i>
                                     </div>
                                     <div class="feature-content">
-                                        <h5>Dedicated Support</h5>
-                                        <p>Always here to assist you.</p>
+                                        <h5>Future Ready</h5>
+                                        <p>Scalable, cloud-ready systems designed for long-term success.</p>
                                     </div>
                                 </div>
                             </div>
@@ -103,29 +103,29 @@
                             <div class="process-step">
                                 <div class="step-number">01</div>
                                 <div class="step-content">
-                                    <h5>Initial Consultation</h5>
-                                    <p>We begin by understanding your business needs, challenges, and goals to design the most effective IT strategy tailored for you.</p>
+                                    <h5>Planning</h5>
+                                    <p>We gather requirements, understand your goals, and design a roadmap for your project.</p>
                                 </div>
                             </div>
                             <div class="process-step">
                                 <div class="step-number">02</div>
                                 <div class="step-content">
-                                    <h5>Strategic Planning</h5>
-                                    <p>Our team outlines clear technology roadmaps, ensuring cost efficiency, scalability, and alignment with your company’s long-term objectives.</p>
+                                    <h5>Designing</h5>
+                                    <p>User-friendly wireframes and UI designs crafted to deliver great experiences.</p>
                                 </div>
                             </div>
                             <div class="process-step">
                                 <div class="step-number">03</div>
                                 <div class="step-content">
-                                    <h5>Implementation Support</h5>
-                                    <p>We guide seamless deployment of chosen solutions, providing hands-on support to minimize disruption and maximize operational efficiency.</p>
+                                    <h5>Development</h5>
+                                    <p>Agile development with best coding practices for reliability and scalability.</p>
                                 </div>
                             </div>
                             <div class="process-step">
                                 <div class="step-number">04</div>
                                 <div class="step-content">
-                                    <h5>Continuous Optimization</h5>
-                                    <p>Regular reviews and improvements keep your systems secure, efficient, and adaptable to evolving business and market demands.</p>
+                                    <h5>Deployment</h5>
+                                    <p>Seamless launch with support, monitoring, and future improvements.</p>
                                 </div>
                             </div>
                         </div>
@@ -155,17 +155,17 @@
                         <h4>Our Services</h4>
                         <div class="menu-list">
                             <!-- active -->
-                            <a href="<?= base_url('services/IT_Consulting/IT_Strategy') ?>" class="menu-item ">
+                            <a href="<?= base_url('services/Softwere_Apps/Web_Development') ?>" class="menu-item ">
                                 <i class="bi bi-arrow-right"></i>
-                                <span>IT Strategy</span>
+                                <span>Web Development</span>
                             </a>
-                            <a href="<?= base_url('services/IT_Consulting/Digital_Transformation') ?>" class="menu-item">
+                            <a href="<?= base_url('services/Softwere_Apps/Mobile_Apps') ?>" class="menu-item">
                                 <i class="bi bi-arrow-right"></i>
-                                <span>Digital Transformation</span>
+                                <span>Mobile Apps</span>
                             </a>
-                            <a href="<?= base_url('services/IT_Consulting/Tech_Assessments') ?>" class="menu-item">
+                            <a href="<?= base_url('services/Softwere_Apps/Custom_Solutions') ?>" class="menu-item">
                                 <i class="bi bi-arrow-right"></i>
-                                <span>Tech Assessments</span>
+                                <span>Custom Solutions</span>
                             </a>
                         </div>
                     </div>

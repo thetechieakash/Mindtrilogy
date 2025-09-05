@@ -19,6 +19,8 @@
         <nav class="breadcrumbs">
             <ol>
                 <li><a href="<?= base_url(); ?>">Home</a></li>
+                <li><a href="<?= base_url('services'); ?>">Services</a></li>
+                <li><a href="<?= base_url('services/IT_Consulting'); ?>">IT Consulting</a></li>
                 <li class="current">Digital Transformation</li>
             </ol>
         </nav>

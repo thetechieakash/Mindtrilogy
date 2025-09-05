@@ -56,6 +56,12 @@
             background: rgba(255, 255, 255, 0.3);
             color: white;
         }
+
+        @media only screen and (max-width: 600px) {
+            .error-code {
+                font-size: 8rem;
+            }
+        }
     </style>
 </head>
 
@@ -68,7 +74,7 @@
             <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
                 <a href="<?= base_url(); ?>" class="btn btn-glass px-4 py-2">Return Home</a>
                 <a href="<?= base_url(); ?>" onclick="history.back()" class="btn btn-glass px-4 py-2">Return Back</a>
-                <a href="<?= base_url('contact'); ?>" class="btn btn-glass px-4 py-2">Report Problem</a>
+                <a href="<?= base_url('Contact'); ?>" class="btn btn-glass px-4 py-2">Report Problem</a>
             </div>
         </div>
     </div>
